@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // la_ctx* is an opaque handle. la_capi_load returns it directly (0 == failure),

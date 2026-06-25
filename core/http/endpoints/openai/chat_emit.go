@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/functions"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
 )
 
 // streamWorkerResult is what the streaming workers (process / processTools)

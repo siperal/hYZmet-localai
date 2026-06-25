@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/functions"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

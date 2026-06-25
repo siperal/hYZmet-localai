@@ -2,16 +2,16 @@ package routes
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/localai"
-	mcpTools "github.com/mudler/LocalAI/core/http/endpoints/mcp"
-	"github.com/mudler/LocalAI/core/http/endpoints/openai"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
-	"github.com/mudler/LocalAI/core/services/routing/piiadapter"
-	"github.com/mudler/LocalAI/core/services/routing/router"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/localai"
+	mcpTools "github.com/siperal/hYZmet-localai/core/http/endpoints/mcp"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/piiadapter"
+	"github.com/siperal/hYZmet-localai/core/services/routing/router"
 )
 
 func RegisterOpenAIRoutes(app *echo.Echo,

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
 	process "github.com/mudler/go-processmanager"
 )
 

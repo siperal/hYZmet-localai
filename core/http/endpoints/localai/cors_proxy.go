@@ -13,9 +13,9 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/httpclient"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 // CORSProxyEndpoint proxies HTTP requests to external MCP servers,

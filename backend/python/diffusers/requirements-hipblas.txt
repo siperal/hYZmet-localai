@@ -15,7 +15,7 @@ ftfy
 # (<=0.38.0); only unreleased diffusers main supports transformers v5. Tracking
 # main via git froze whichever broken pair existed at image-build time. Pin the
 # last known-good released pair so builds are reproducible and can't drift into
-# the broken window. See https://github.com/mudler/LocalAI/issues/9979
+# the broken window. See https://github.com/siperal/hYZmet-localai/issues/9979
 #
 # compel is intentionally omitted: it pins transformers~=4.25, which conflicts
 # with this pin and previously forced pip into multi-hour resolver backtracking

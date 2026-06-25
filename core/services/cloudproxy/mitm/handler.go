@@ -15,10 +15,10 @@ import (
 	"github.com/mudler/xlog"
 	"golang.org/x/net/http2"
 
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
-	"github.com/mudler/LocalAI/core/services/routing/piiadapter"
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/piiadapter"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // PIIHandlerOptions configures NewPIIHandler.

@@ -5,8 +5,8 @@ import (
 	"slices"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
 )
 
 func RegisterUIRoutes(app *echo.Echo,

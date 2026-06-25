@@ -1,8 +1,8 @@
 package nodes
 
 import (
-	"github.com/mudler/LocalAI/core/config"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/config"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

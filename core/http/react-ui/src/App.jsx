@@ -163,7 +163,7 @@ export default function App() {
                 </span>
               )}
               <div className="app-footer-links">
-                <a href="https://github.com/mudler/LocalAI" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/siperal/hYZmet-localai" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github" /> {t('footer.github')}
                 </a>
                 <a href="https://localai.io" target="_blank" rel="noopener noreferrer">

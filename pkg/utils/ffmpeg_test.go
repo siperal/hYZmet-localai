@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	laudio "github.com/mudler/LocalAI/pkg/audio"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
 )
 
 // generateTestWav creates a WAV file with a sine-ish tone at the given sample rate,

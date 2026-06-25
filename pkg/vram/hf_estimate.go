@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	hfapi "github.com/mudler/LocalAI/pkg/huggingface-api"
+	hfapi "github.com/siperal/hYZmet-localai/pkg/huggingface-api"
 )
 
 var (

@@ -62,7 +62,7 @@ Model sizes vary significantly depending on the model and quantization level:
 
 ### Benchmarking LocalAI and llama.cpp shows different results!
 
-LocalAI applies a set of defaults when loading models with the llama.cpp backend, one of these is mirostat sampling - while it achieves better results, it slows down the inference. You can disable this by setting `mirostat: 0` in the model config file. See also the advanced section ({{%relref "advanced/advanced-usage" %}}) for more information and [this issue](https://github.com/mudler/LocalAI/issues/2780).
+LocalAI applies a set of defaults when loading models with the llama.cpp backend, one of these is mirostat sampling - while it achieves better results, it slows down the inference. You can disable this by setting `mirostat: 0` in the model config file. See also the advanced section ({{%relref "advanced/advanced-usage" %}}) for more information and [this issue](https://github.com/siperal/hYZmet-localai/issues/2780).
 
 ### What's the difference with Serge, or XXX?
 
@@ -90,7 +90,7 @@ There is the availability of localai-webui and chatbot-ui in the examples sectio
 
 ### Does it work with AutoGPT? 
 
-Yes, see the [examples](https://github.com/mudler/LocalAI-examples)!
+Yes, see the [examples](https://github.com/siperal/hYZmet-localai-examples)!
 
 ### How can I troubleshoot when something is wrong?
 

@@ -8,12 +8,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/galleryop"
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/core/services/nodes"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

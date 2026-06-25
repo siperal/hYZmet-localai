@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mudler/LocalAI/pkg/distributedhdr"
+	"github.com/siperal/hYZmet-localai/pkg/distributedhdr"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

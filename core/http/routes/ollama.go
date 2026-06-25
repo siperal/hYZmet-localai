@@ -5,14 +5,14 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/ollama"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
-	"github.com/mudler/LocalAI/core/services/routing/piiadapter"
-	"github.com/mudler/LocalAI/pkg/distributedhdr"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/ollama"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/piiadapter"
+	"github.com/siperal/hYZmet-localai/pkg/distributedhdr"
 )
 
 func RegisterOllamaRoutes(app *echo.Echo,

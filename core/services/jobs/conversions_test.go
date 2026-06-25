@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/schema"
 )
 
 var _ = Describe("Conversions", func() {

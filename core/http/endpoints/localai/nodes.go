@@ -20,15 +20,15 @@ import (
 	"github.com/mudler/xlog"
 	"gorm.io/gorm"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/http/auth"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/galleryop"
-	"github.com/mudler/LocalAI/core/services/nodes"
-	"github.com/mudler/LocalAI/core/services/nodes/prefixcache"
-	"github.com/mudler/LocalAI/pkg/httpclient"
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/core/services/nodes/prefixcache"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 )
 
 // nodeError builds a schema.ErrorResponse for node endpoints.

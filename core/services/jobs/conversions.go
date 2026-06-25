@@ -1,8 +1,8 @@
 package jobs
 
 import (
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/dbutil"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/dbutil"
 	"github.com/mudler/xlog"
 )
 

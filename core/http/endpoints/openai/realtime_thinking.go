@@ -1,8 +1,8 @@
 package openai
 
 import (
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/reasoning"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/reasoning"
 )
 
 // applyPipelineThinking forces the LLM's reasoning/thinking off when the realtime

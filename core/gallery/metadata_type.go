@@ -1,6 +1,6 @@
 package gallery
 
-import "github.com/mudler/LocalAI/core/config"
+import "github.com/siperal/hYZmet-localai/core/config"
 
 type Metadata struct {
 	URL         string   `json:"url,omitempty" yaml:"url,omitempty"`

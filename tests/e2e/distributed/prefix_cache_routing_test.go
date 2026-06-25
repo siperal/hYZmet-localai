@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/nodes"
-	"github.com/mudler/LocalAI/core/services/nodes/prefixcache"
-	"github.com/mudler/LocalAI/pkg/distributedhdr"
-	grpcPkg "github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/core/services/nodes/prefixcache"
+	"github.com/siperal/hYZmet-localai/pkg/distributedhdr"
+	grpcPkg "github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

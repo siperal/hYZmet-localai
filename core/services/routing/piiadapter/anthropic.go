@@ -1,8 +1,8 @@
 package piiadapter
 
 import (
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
 )
 
 // Anthropic returns a pii.Adapter for *schema.AnthropicRequest. The

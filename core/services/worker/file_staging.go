@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/core/services/storage"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/storage"
 	"github.com/mudler/xlog"
 )
 

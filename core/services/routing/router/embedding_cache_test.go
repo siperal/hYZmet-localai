@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/routing/router"
+	"github.com/siperal/hYZmet-localai/core/services/routing/router"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

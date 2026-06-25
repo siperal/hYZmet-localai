@@ -5,10 +5,10 @@ import (
 
 	"github.com/mudler/LocalAGI/services/skills"
 	"github.com/mudler/LocalAGI/webui/collections"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/jobs"
-	"github.com/mudler/LocalAI/core/templates"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/jobs"
+	"github.com/siperal/hYZmet-localai/core/templates"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 	"github.com/mudler/xlog"
 )
 

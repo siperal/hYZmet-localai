@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
 )
 
 func registerGalleryRoutes(app *echo.Echo, cl *config.ModelConfigLoader, appConfig *config.ApplicationConfig, galleryService *galleryop.GalleryService, opcache *galleryop.OpCache) {

@@ -2,7 +2,7 @@
 
 The examples for LocalAI have moved to a dedicated repository for easier discovery and maintenance.
 
-## **[Browse Examples](https://github.com/mudler/LocalAI-examples)**
+## **[Browse Examples](https://github.com/siperal/hYZmet-localai-examples)**
 
 The examples repository contains ready-to-run configurations and tutorials covering:
 
@@ -17,7 +17,7 @@ Each example includes configuration files and step-by-step instructions to get s
 
 ### Quick Links
 
-- **Examples Repository**: https://github.com/mudler/LocalAI-examples
+- **Examples Repository**: https://github.com/siperal/hYZmet-localai-examples
 - **Documentation**: https://localai.io/
 - **Model Gallery**: https://models.localai.io/
 - **Getting Started**: https://localai.io/basics/getting_started/

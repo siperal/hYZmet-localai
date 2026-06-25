@@ -11,10 +11,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/config"
-	httpapi "github.com/mudler/LocalAI/core/http"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/config"
+	httpapi "github.com/siperal/hYZmet-localai/core/http"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	"github.com/mudler/xlog"
 	"gopkg.in/yaml.v3"
 )

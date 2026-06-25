@@ -1,6 +1,6 @@
 package nodes
 
-import "github.com/mudler/LocalAI/pkg/clusterrouting"
+import "github.com/siperal/hYZmet-localai/pkg/clusterrouting"
 
 // ReplicaCandidate aliases the canonical type in pkg/clusterrouting. The policy
 // implementation moved there so the p2p federation server can share it without

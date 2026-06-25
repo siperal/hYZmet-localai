@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/trace"
+	"github.com/siperal/hYZmet-localai/core/trace"
 )
 
 // One second of mono 16-bit PCM at 16 kHz: 32 KiB raw. After the 44-byte

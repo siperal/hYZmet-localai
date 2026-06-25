@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/core/services/nodes"
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 
-	grpcPkg "github.com/mudler/LocalAI/pkg/grpc"
+	grpcPkg "github.com/siperal/hYZmet-localai/pkg/grpc"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

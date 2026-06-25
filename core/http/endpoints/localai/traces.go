@@ -2,8 +2,8 @@ package localai
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/trace"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/trace"
 )
 
 // GetAPITracesEndpoint returns all API request/response traces

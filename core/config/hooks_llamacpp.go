@@ -43,7 +43,7 @@ func llamaCppDefaults(cfg *ModelConfig, modelPath string) {
 	// scalar metadata (architecture, head/ff counts, chat_template, token IDs,
 	// MTP head) plus array *lengths* — never the array *contents*. Two options
 	// keep this cheap, which matters when many models live on slow storage such
-	// as a Docker volume (see https://github.com/mudler/LocalAI/issues/9790):
+	// as a Docker volume (see https://github.com/siperal/hYZmet-localai/issues/9790):
 	//
 	//   - SkipLargeMetadata: seek past large array-valued metadata (the tokenizer
 	//     vocab: tokenizer.ggml.tokens/scores/merges, often >100k entries) instead

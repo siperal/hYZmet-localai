@@ -1,7 +1,7 @@
 package meta_test
 
 import (
-	"github.com/mudler/LocalAI/core/config/meta"
+	"github.com/siperal/hYZmet-localai/core/config/meta"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

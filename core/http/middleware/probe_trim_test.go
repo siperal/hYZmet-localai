@@ -3,8 +3,8 @@ package middleware
 import (
 	"strings"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

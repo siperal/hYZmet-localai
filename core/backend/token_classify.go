@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/trace"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	model "github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/trace"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	model "github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // TokenEntity is one detected span from a token-classification (NER)

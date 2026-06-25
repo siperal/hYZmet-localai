@@ -11,10 +11,10 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
-	model "github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
+	model "github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // New builds a pii.NERDetector backed by the token-classification model

@@ -11,8 +11,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/services/dbutil"
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/dbutil"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 	"github.com/mudler/xlog"
 )
 

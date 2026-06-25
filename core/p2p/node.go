@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/schema"
 )
 
 const (

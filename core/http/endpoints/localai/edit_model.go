@@ -8,11 +8,11 @@ import (
 	"net/url"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	httpUtils "github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/services/modeladmin"
-	"github.com/mudler/LocalAI/internal"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	httpUtils "github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/services/modeladmin"
+	"github.com/siperal/hYZmet-localai/internal"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // GetEditModelPage renders the edit model page with current configuration

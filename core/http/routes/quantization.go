@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/localai"
-	"github.com/mudler/LocalAI/core/services/quantization"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/localai"
+	"github.com/siperal/hYZmet-localai/core/services/quantization"
 )
 
 // RegisterQuantizationRoutes registers quantization API routes.

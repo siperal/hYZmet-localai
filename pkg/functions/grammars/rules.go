@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 type Rules map[string]string

@@ -3,7 +3,7 @@ package worker
 import (
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 )
 
 // connectNATS opens a NATS client using JWT+seed from env or registration (env wins).

@@ -6,8 +6,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/core/services/nodes/prefixcache"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/nodes/prefixcache"
 )
 
 type fakePub struct{ published []any }

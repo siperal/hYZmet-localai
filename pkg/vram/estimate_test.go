@@ -3,7 +3,7 @@ package vram_test
 import (
 	"context"
 
-	. "github.com/mudler/LocalAI/pkg/vram"
+	. "github.com/siperal/hYZmet-localai/pkg/vram"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

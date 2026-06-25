@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/advisorylock"
-	"github.com/mudler/LocalAI/core/services/dbutil"
-	"github.com/mudler/LocalAI/core/services/jobs"
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/advisorylock"
+	"github.com/siperal/hYZmet-localai/core/services/dbutil"
+	"github.com/siperal/hYZmet-localai/core/services/jobs"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

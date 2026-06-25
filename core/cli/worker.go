@@ -1,8 +1,8 @@
 package cli
 
 import (
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/services/worker"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/services/worker"
 )
 
 // WorkerCMD is the kong-parsed CLI surface for `local-ai worker`.

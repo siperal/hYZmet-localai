@@ -10,8 +10,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/mudler/LocalAI/pkg/grpc"
-	"github.com/mudler/LocalAI/pkg/store"
+	"github.com/siperal/hYZmet-localai/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/pkg/store"
 )
 
 // StoreResolver resolves a named vector store to a gRPC backend. The

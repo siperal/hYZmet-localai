@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	laudio "github.com/mudler/LocalAI/pkg/audio"
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // onnxProvider is set via -ldflags "-X main.onnxProvider=cuda" by the

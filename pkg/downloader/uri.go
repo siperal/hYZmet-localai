@@ -19,10 +19,10 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
-	"github.com/mudler/LocalAI/pkg/oci"
-	"github.com/mudler/LocalAI/pkg/utils"
-	"github.com/mudler/LocalAI/pkg/xio"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/oci"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/xio"
 )
 
 const (

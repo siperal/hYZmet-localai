@@ -3,7 +3,7 @@ package backend
 import (
 	"strings"
 
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/schema"
 )
 
 // messagesPrefixSource builds a deterministic, prefix-stable serialization of a

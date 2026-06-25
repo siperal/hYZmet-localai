@@ -78,7 +78,7 @@ For complete installation instructions including Docker, macOS, Linux, Kubernete
 LocalAI is a community-driven project. You can:
 
 - Join our [Discord community](https://discord.gg/uJAeKSAGDy)
-- Check out our [GitHub repository](https://github.com/mudler/LocalAI)
+- Check out our [GitHub repository](https://github.com/siperal/hYZmet-localai)
 - Contribute to the project
 - Share your use cases and examples
 
@@ -100,7 +100,7 @@ LocalAI is created by [Ettore Di Giacinto](https://github.com/mudler) and mainta
 - **[Ettore Di Giacinto](https://github.com/mudler)** — original author and project lead
 - **[Richard Palethorpe](https://github.com/richiejp)** — maintainer
 
-LocalAI is helped by the wider community of contributors. See the full [contributors list](https://github.com/mudler/LocalAI/graphs/contributors).
+LocalAI is helped by the wider community of contributors. See the full [contributors list](https://github.com/siperal/hYZmet-localai/graphs/contributors).
 
 ## License
 

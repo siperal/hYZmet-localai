@@ -8,10 +8,10 @@ import (
 	"sync"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	. "github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/services/routing/admission"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/config"
+	. "github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/services/routing/admission"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

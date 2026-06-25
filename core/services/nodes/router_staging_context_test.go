@@ -9,8 +9,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // cancelOnStageStager simulates the triggering HTTP request being abandoned

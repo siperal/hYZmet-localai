@@ -1,7 +1,7 @@
 package openai
 
 import (
-	"github.com/mudler/LocalAI/core/config"
+	"github.com/siperal/hYZmet-localai/core/config"
 	"github.com/mudler/xlog"
 	"github.com/pion/webrtc/v4"
 )

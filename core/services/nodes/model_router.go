@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/mudler/LocalAI/pkg/distributedhdr"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/distributedhdr"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 	"github.com/mudler/xlog"
 )
 

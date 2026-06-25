@@ -23,7 +23,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/mudler/LocalAI/pkg/xio"
+	"github.com/siperal/hYZmet-localai/pkg/xio"
 )
 
 // ref: https://github.com/mudler/luet/blob/master/pkg/helpers/docker/docker.go#L117

@@ -40,7 +40,7 @@ func NewLocalAIMetricsService() (*LocalAIMetricsService, error) {
 	// /metrics — which is exactly the silent-billing-loss class of bug
 	// the routing module is designed to surface.
 	otel.SetMeterProvider(provider)
-	meter := provider.Meter("github.com/mudler/LocalAI")
+	meter := provider.Meter("github.com/siperal/hYZmet-localai")
 
 	apiTimeMetric, err := meter.Float64Histogram("api_call", metric.WithDescription("api calls"))
 	if err != nil {

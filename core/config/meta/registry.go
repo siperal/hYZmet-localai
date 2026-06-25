@@ -1,6 +1,6 @@
 package meta
 
-import "github.com/mudler/LocalAI/core/services/routing/piipattern"
+import "github.com/siperal/hYZmet-localai/core/services/routing/piipattern"
 
 // builtinPatternOptions turns the piipattern built-in catalogue into select
 // options for the editor's built-in-patterns checklist, keeping the catalogue

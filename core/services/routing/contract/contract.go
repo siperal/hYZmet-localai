@@ -21,7 +21,7 @@ import (
 var violationCounter metric.Int64Counter
 
 func init() {
-	meter := otel.Meter("github.com/mudler/LocalAI/core/services/routing")
+	meter := otel.Meter("github.com/siperal/hYZmet-localai/core/services/routing")
 	c, err := meter.Int64Counter(
 		"localai_invariant_violation_total",
 		metric.WithDescription("Routing-module runtime invariant violations, labeled by name"),

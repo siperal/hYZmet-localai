@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

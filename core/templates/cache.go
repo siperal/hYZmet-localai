@@ -8,7 +8,7 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 
 	"github.com/Masterminds/sprig/v3"
 )

@@ -16,17 +16,17 @@ import (
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
 
-	"github.com/mudler/LocalAI/core/backend"
+	"github.com/siperal/hYZmet-localai/core/backend"
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
-	model "github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
+	model "github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 func downloadFile(url string) (string, error) {

@@ -9,7 +9,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // scriptedForwardClient is a fake ForwardClient that returns a fixed

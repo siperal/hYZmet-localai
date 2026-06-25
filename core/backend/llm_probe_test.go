@@ -1,7 +1,7 @@
 package backend
 
 import (
-	"github.com/mudler/LocalAI/core/config"
+	"github.com/siperal/hYZmet-localai/core/config"
 
 	"github.com/gpustack/gguf-parser-go/util/ptr"
 	. "github.com/onsi/ginkgo/v2"

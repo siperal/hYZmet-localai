@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mudler/LocalAI/core/services/nodes/prefixcache"
+	"github.com/siperal/hYZmet-localai/core/services/nodes/prefixcache"
 	"gopkg.in/yaml.v3"
 )
 

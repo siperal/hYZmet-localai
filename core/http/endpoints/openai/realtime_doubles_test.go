@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/openai/types"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai/types"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // fakeTransport records the server events and audio sent to a realtime client

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // Default upper bound on detections returned per image. RF-DETR's decoder

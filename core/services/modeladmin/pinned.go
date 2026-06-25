@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 // SyncPinnedFn lets the caller (HTTP handler or inproc client) propagate a

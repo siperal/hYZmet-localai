@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/sound"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/sound"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/pion/rtp"

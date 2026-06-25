@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
 
 	"github.com/google/uuid"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/schema"
 
-	"github.com/mudler/LocalAI/core/templates"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/templates"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 
 	"github.com/mudler/xlog"
 )

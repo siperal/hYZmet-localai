@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	localaitools "github.com/mudler/LocalAI/pkg/mcp/localaitools"
+	localaitools "github.com/siperal/hYZmet-localai/pkg/mcp/localaitools"
 )
 
 // fakeLocalAI is a minimal HTTP server that mimics the relevant LocalAI

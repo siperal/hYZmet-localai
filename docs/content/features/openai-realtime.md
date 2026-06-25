@@ -270,4 +270,4 @@ This event is a LocalAI extension to the OpenAI Realtime API and is server-emitt
 ## Examples
 
 - [Realtime voice assistant demo (Go)](https://github.com/localai-org/localai-realtime-demo): a minimal Go client for the Realtime (WebSocket) API with a full talk-back voice loop and an example tool call. Ships a `docker compose` setup that brings up a realtime-capable LocalAI for you.
-- [Realtime voice assistant example (Python)](https://github.com/mudler/LocalAI-examples/tree/main/realtime): thin-client architecture (Silero VAD on the client, heavy lifting on LocalAI), suited to running the client on a Raspberry Pi.
+- [Realtime voice assistant example (Python)](https://github.com/siperal/hYZmet-localai-examples/tree/main/realtime): thin-client architecture (Silero VAD on the client, heavy lifting on LocalAI), suited to running the client on a Raspberry Pi.

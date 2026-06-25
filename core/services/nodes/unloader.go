@@ -10,8 +10,8 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/mudler/LocalAI/core/services/galleryop"
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 	"github.com/mudler/xlog"
 )
 

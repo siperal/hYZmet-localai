@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/lithammer/fuzzysearch/fuzzy"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/system"
-	"github.com/mudler/LocalAI/pkg/xsync"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/system"
+	"github.com/siperal/hYZmet-localai/pkg/xsync"
 	"github.com/mudler/xlog"
 
 	"gopkg.in/yaml.v3"

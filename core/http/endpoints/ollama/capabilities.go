@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mudler/LocalAI/core/config"
+	"github.com/siperal/hYZmet-localai/core/config"
 )
 
 // modelCapabilities maps a LocalAI ModelConfig to the Ollama capability strings

@@ -18,9 +18,9 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/core/services/storage"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/core/services/storage"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // HTTPFileStager implements FileStager using HTTP for environments without S3.

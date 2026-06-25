@@ -2,17 +2,17 @@ package routes
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/localai"
-	mcpTools "github.com/mudler/LocalAI/core/http/endpoints/mcp"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/galleryop"
-	"github.com/mudler/LocalAI/core/services/monitoring"
-	"github.com/mudler/LocalAI/core/templates"
-	"github.com/mudler/LocalAI/internal"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/localai"
+	mcpTools "github.com/siperal/hYZmet-localai/core/http/endpoints/mcp"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/services/monitoring"
+	"github.com/siperal/hYZmet-localai/core/templates"
+	"github.com/siperal/hYZmet-localai/internal"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 	echoswagger "github.com/swaggo/echo-swagger"
 )
 

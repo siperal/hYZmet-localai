@@ -67,7 +67,7 @@ Feel free to open up a Pull request (by clicking at the "Edit page" below) to ge
 
 - [Discord bot](https://github.com/mudler/LocalAGI/tree/main/examples/discord)
 - [Slack bot](https://github.com/mudler/LocalAGI/tree/main/examples/slack)
-- [Telegram bot](https://github.com/mudler/LocalAI/tree/master/examples/telegram-bot)
+- [Telegram bot](https://github.com/siperal/hYZmet-localai/tree/master/examples/telegram-bot)
 - [Hellper (Telegram)](https://github.com/JackBekket/Hellper)
 
 ### Home Automation
@@ -94,7 +94,7 @@ Feel free to open up a Pull request (by clicking at the "Edit page" below) to ge
 - [spark](https://github.com/cedriking/spark)
 - [openops (Mattermost)](https://github.com/mattermost/openops)
 - [Model Gallery](https://github.com/go-skynet/model-gallery)
-- [Examples](https://github.com/mudler/LocalAI/tree/master/examples/)
+- [Examples](https://github.com/siperal/hYZmet-localai/tree/master/examples/)
 
 ## Configuration Guides
 
@@ -381,7 +381,7 @@ jobs:
 
 ### Realtime Voice Assistant
 
-LocalAI supports realtime voice interactions , enabling voice assistant applications with real-time speech-to-speech communication. A complete example implementation is available in the [LocalAI-examples repository](https://github.com/mudler/LocalAI-examples/tree/main/realtime). For a minimal native client, see the [Go realtime voice assistant demo](https://github.com/localai-org/localai-realtime-demo): a tiny Go client for the Realtime (WebSocket) API with a full talk-back loop and an example tool call, plus a `docker compose` setup that brings up a realtime-capable LocalAI for you.
+LocalAI supports realtime voice interactions , enabling voice assistant applications with real-time speech-to-speech communication. A complete example implementation is available in the [LocalAI-examples repository](https://github.com/siperal/hYZmet-localai-examples/tree/main/realtime). For a minimal native client, see the [Go realtime voice assistant demo](https://github.com/localai-org/localai-realtime-demo): a tiny Go client for the Realtime (WebSocket) API with a full talk-back loop and an example tool call, plus a `docker compose` setup that brings up a realtime-capable LocalAI for you.
 
 #### Overview
 
@@ -403,7 +403,7 @@ The realtime voice assistant example demonstrates how to build a voice assistant
 1. **Clone the example repository**
 
    ```bash
-   git clone https://github.com/mudler/LocalAI-examples.git
+   git clone https://github.com/siperal/hYZmet-localai-examples.git
    cd LocalAI-examples/realtime
    ```
 
@@ -457,7 +457,7 @@ The realtime voice assistant example demonstrates how to build a voice assistant
 
 #### Additional Resources
 
-- [Realtime Voice Assistant Example (Python)](https://github.com/mudler/LocalAI-examples/tree/main/realtime)
+- [Realtime Voice Assistant Example (Python)](https://github.com/siperal/hYZmet-localai-examples/tree/main/realtime)
 - [Realtime Voice Assistant Demo (Go)](https://github.com/localai-org/localai-realtime-demo)
 - [LocalAI Realtime API documentation](/features/)
 - [Audio features documentation](/features/text-to-audio/)

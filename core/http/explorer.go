@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/explorer"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/http/routes"
+	"github.com/siperal/hYZmet-localai/core/explorer"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/http/routes"
 	"github.com/mudler/xlog"
 )
 

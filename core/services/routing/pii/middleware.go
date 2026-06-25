@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/http/auth"
-	"github.com/mudler/LocalAI/core/services/routing/contract"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/services/routing/contract"
 	"github.com/mudler/xlog"
 )
 

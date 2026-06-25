@@ -3,13 +3,13 @@ package openai
 import (
 	"encoding/json"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/functions"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/model"
-	reason "github.com/mudler/LocalAI/pkg/reasoning"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	reason "github.com/siperal/hYZmet-localai/pkg/reasoning"
 	"github.com/mudler/xlog"
 )
 

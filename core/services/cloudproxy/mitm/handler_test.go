@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/mudler/LocalAI/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

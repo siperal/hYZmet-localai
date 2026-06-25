@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"unicode/utf8"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/schema"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
 	"github.com/mudler/xlog"
 	"golang.org/x/net/http2"
 )

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
-	"github.com/mudler/LocalAI/core/services/routing/piipattern"
-	"github.com/mudler/LocalAI/core/trace"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/piipattern"
+	"github.com/siperal/hYZmet-localai/core/trace"
 )
 
 // NewPattern builds a pii.NERDetector that matches secrets with the restricted

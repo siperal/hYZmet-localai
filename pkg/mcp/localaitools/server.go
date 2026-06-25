@@ -3,7 +3,7 @@ package localaitools
 import (
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/mudler/LocalAI/internal"
+	"github.com/siperal/hYZmet-localai/internal"
 )
 
 // Options control which tools the server registers and how the embedded

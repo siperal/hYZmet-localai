@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/core/application"
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http"
-	"github.com/mudler/LocalAI/core/p2p"
-	"github.com/mudler/LocalAI/internal"
-	"github.com/mudler/LocalAI/pkg/signals"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/application"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http"
+	"github.com/siperal/hYZmet-localai/core/p2p"
+	"github.com/siperal/hYZmet-localai/internal"
+	"github.com/siperal/hYZmet-localai/pkg/signals"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	"github.com/mudler/xlog"
 )
 

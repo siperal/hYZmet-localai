@@ -7,7 +7,7 @@ import (
 	"github.com/mudler/LocalAGI/core/agent"
 	"github.com/mudler/LocalAGI/core/sse"
 	"github.com/mudler/LocalAGI/core/state"
-	"github.com/mudler/LocalAI/core/services/agents"
+	"github.com/siperal/hYZmet-localai/core/services/agents"
 	"github.com/mudler/xlog"
 )
 

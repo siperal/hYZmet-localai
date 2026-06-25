@@ -1,6 +1,6 @@
 package openai
 
-import "github.com/mudler/LocalAI/core/config"
+import "github.com/siperal/hYZmet-localai/core/config"
 
 // applyPipelineReasoning sets the reasoning effort for a realtime pipeline's LLM
 // from the pipeline config, without editing the underlying LLM model config. The

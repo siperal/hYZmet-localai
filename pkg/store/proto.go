@@ -6,7 +6,7 @@ package store
 // schema bug only needs fixing once.
 
 import (
-	"github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // WrapKeys wraps each plain []float32 in a *proto.StoresKey.

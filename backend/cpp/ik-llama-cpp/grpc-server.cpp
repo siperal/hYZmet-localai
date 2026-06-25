@@ -1656,7 +1656,7 @@ struct llama_server_context
 
                     // START LOCALAI changes
                     // Temporary disable context-shifting as it can lead to infinite loops (issue: https://github.com/ggerganov/llama.cpp/issues/3969)
-                    // See: https://github.com/mudler/LocalAI/issues/1333
+                    // See: https://github.com/siperal/hYZmet-localai/issues/1333
                     // Context is exhausted, release the slot
                     slot.release();
                     send_final_response(slot);

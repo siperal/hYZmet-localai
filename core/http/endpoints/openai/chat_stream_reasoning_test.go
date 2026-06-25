@@ -1,8 +1,8 @@
 package openai
 
 import (
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	reason "github.com/mudler/LocalAI/pkg/reasoning"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	reason "github.com/siperal/hYZmet-localai/pkg/reasoning"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

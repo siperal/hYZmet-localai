@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/grpc"
-	"github.com/mudler/LocalAI/pkg/grpc/grpcerrors"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/grpcerrors"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	"github.com/mudler/xlog"
 	ggrpc "google.golang.org/grpc"
 )

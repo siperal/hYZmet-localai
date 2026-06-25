@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	. "github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/config"
+	. "github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

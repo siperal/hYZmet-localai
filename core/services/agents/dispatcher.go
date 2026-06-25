@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/pkg/concurrency"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/pkg/concurrency"
 
 	coreTypes "github.com/mudler/LocalAGI/core/types"
 	"github.com/mudler/cogito"

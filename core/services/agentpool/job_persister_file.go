@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/xsync"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/xsync"
 	"github.com/mudler/xlog"
 )
 

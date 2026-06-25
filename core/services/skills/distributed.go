@@ -1,7 +1,7 @@
 package skills
 
 import (
-	"github.com/mudler/LocalAI/core/services/distributed"
+	"github.com/siperal/hYZmet-localai/core/services/distributed"
 	skillserver "github.com/mudler/skillserver/pkg/domain"
 	"github.com/mudler/xlog"
 )

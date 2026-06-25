@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/mudler/LocalAI/core/http/auth"
-	"github.com/mudler/LocalAI/core/services/routing/contract"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/services/routing/contract"
 	"github.com/mudler/xlog"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
@@ -65,7 +65,7 @@ func resolveMeter() metric.Meter {
 	if m != nil {
 		return m
 	}
-	return otel.Meter("github.com/mudler/LocalAI/core/services/routing/billing")
+	return otel.Meter("github.com/siperal/hYZmet-localai/core/services/routing/billing")
 }
 
 func initMetrics() {

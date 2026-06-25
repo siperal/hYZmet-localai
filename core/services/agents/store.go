@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/mudler/LocalAI/core/services/advisorylock"
+	"github.com/siperal/hYZmet-localai/core/services/advisorylock"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

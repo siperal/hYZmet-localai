@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/system"
-	"github.com/mudler/LocalAI/pkg/utils"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/system"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 
 	"github.com/mudler/xlog"
 )

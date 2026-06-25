@@ -79,7 +79,7 @@ Use [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install) with an Ubunt
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/mudler/LocalAI.git
+   git clone https://github.com/siperal/hYZmet-localai.git
    cd LocalAI
    ```
 
@@ -295,7 +295,7 @@ make test-extra           # run backend-specific tests
 
 ## Documentation
 
-We welcome contributions to the documentation. Please open a new PR or create a new issue. The documentation is available under `docs/` https://github.com/mudler/LocalAI/tree/master/docs
+We welcome contributions to the documentation. Please open a new PR or create a new issue. The documentation is available under `docs/` https://github.com/siperal/hYZmet-localai/tree/master/docs
 
 ### Gallery YAML Schema
 

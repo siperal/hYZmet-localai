@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	. "github.com/mudler/LocalAI/pkg/functions"
+	. "github.com/siperal/hYZmet-localai/pkg/functions"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
@@ -1783,14 +1783,14 @@ value
 				Expect(len(results)).To(BeNumerically(">=", 0))
 			})
 
-			// Regression: https://github.com/mudler/LocalAI/issues/9988.
+			// Regression: https://github.com/siperal/hYZmet-localai/issues/9988.
 			// The streaming tool-call detector calls ParseJSONIterative on each
 			// new content chunk. If the parser returns a stub object whose only
 			// key is the synthetic healing marker, the caller treats it as
 			// "tool call detected" and gates content emission — qwen3 with
 			// streaming + tools used to leak only the first two characters of
 			// the JSON ("{\"") to clients as a result.
-			// Regression: https://github.com/mudler/LocalAI/issues/9988.
+			// Regression: https://github.com/siperal/hYZmet-localai/issues/9988.
 			// parseJSONWithStack inserts a random-integer healing marker into
 			// keys (and sometimes values) to make a partial input parseable.
 			// Those marker characters must never reach the caller — keys made

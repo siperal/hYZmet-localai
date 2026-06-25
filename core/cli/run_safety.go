@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 // interfaceAddrsFn is the host-interface enumeration call. Tests swap it to

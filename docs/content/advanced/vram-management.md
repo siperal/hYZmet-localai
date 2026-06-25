@@ -20,7 +20,7 @@ By default, LocalAI keeps models loaded in memory once they're first used. This 
 - Models remain in memory even when not actively being used
 - There's no automatic mechanism to unload models to make room for new ones, unless done manually via the web interface
 
-This is a common issue when working with GPU-accelerated models, as VRAM is typically more limited than system RAM. For more context, see issues [#6068](https://github.com/mudler/LocalAI/issues/6068), [#7269](https://github.com/mudler/LocalAI/issues/7269), and [#5352](https://github.com/mudler/LocalAI/issues/5352).
+This is a common issue when working with GPU-accelerated models, as VRAM is typically more limited than system RAM. For more context, see issues [#6068](https://github.com/siperal/hYZmet-localai/issues/6068), [#7269](https://github.com/siperal/hYZmet-localai/issues/7269), and [#5352](https://github.com/siperal/hYZmet-localai/issues/5352).
 
 ## Solution 1: Max Active Backends (LRU Eviction)
 
@@ -147,7 +147,7 @@ doesn't know that two of them are 120B and shouldn't share a GPU.
 name are mutually exclusive on the same node. Loading one evicts the others.
 Models with no groups behave exactly as before.
 
-This addresses [issue #9659](https://github.com/mudler/LocalAI/issues/9659):
+This addresses [issue #9659](https://github.com/siperal/hYZmet-localai/issues/9659):
 
 > allow my zed prediction model to run alongside anything but don't allow my
 > two 120b models to run alongside each other

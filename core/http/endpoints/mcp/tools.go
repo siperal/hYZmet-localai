@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
-	mcpRemote "github.com/mudler/LocalAI/core/services/mcp"
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	mcpRemote "github.com/siperal/hYZmet-localai/core/services/mcp"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 
-	"github.com/mudler/LocalAI/pkg/functions"
-	"github.com/mudler/LocalAI/pkg/httpclient"
-	"github.com/mudler/LocalAI/pkg/signals"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/signals"
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 	"github.com/mudler/xlog"

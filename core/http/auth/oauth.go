@@ -20,7 +20,7 @@ import (
 	githubOAuth "golang.org/x/oauth2/github"
 	"gorm.io/gorm"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // providerEntry holds the OAuth2/OIDC config for a single provider.

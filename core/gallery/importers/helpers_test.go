@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/gallery/importers"
-	hfapi "github.com/mudler/LocalAI/pkg/huggingface-api"
+	"github.com/siperal/hYZmet-localai/core/gallery/importers"
+	hfapi "github.com/siperal/hYZmet-localai/pkg/huggingface-api"
 )
 
 var _ = Describe("importer helpers", func() {

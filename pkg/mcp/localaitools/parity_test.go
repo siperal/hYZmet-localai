@@ -21,9 +21,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/config"
-	localaitools "github.com/mudler/LocalAI/pkg/mcp/localaitools"
-	"github.com/mudler/LocalAI/pkg/mcp/localaitools/httpapi"
+	"github.com/siperal/hYZmet-localai/core/config"
+	localaitools "github.com/siperal/hYZmet-localai/pkg/mcp/localaitools"
+	"github.com/siperal/hYZmet-localai/pkg/mcp/localaitools/httpapi"
 )
 
 func TestLocalAITools(t *testing.T) {

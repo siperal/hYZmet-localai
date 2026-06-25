@@ -5,12 +5,12 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/openai/types"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/functions"
-	"github.com/mudler/LocalAI/pkg/reasoning"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai/types"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	"github.com/siperal/hYZmet-localai/pkg/reasoning"
 )
 
 // transcriptStreamer turns streamed LLM tokens into the assistant's spoken

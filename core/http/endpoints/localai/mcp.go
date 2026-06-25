@@ -5,13 +5,13 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	mcpTools "github.com/mudler/LocalAI/core/http/endpoints/mcp"
-	"github.com/mudler/LocalAI/core/http/endpoints/openai"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/templates"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	mcpTools "github.com/siperal/hYZmet-localai/core/http/endpoints/mcp"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/templates"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // MCP SSE Event Types (kept for backward compatibility with MCP endpoint consumers)

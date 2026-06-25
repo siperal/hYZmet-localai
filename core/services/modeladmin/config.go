@@ -11,11 +11,11 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/config/meta"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/config/meta"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 // ConfigService groups operations that read or mutate an installed model's

@@ -3,8 +3,8 @@ package distributed_test
 import (
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

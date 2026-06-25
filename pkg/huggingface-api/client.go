@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // Model represents a model from the Hugging Face API

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 	"github.com/mudler/xlog"
 )
 

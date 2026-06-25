@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/sanitize"
+	"github.com/siperal/hYZmet-localai/pkg/sanitize"
 	"github.com/mudler/xlog"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nkeys"

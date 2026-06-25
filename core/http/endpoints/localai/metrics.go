@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/services/monitoring"
+	"github.com/siperal/hYZmet-localai/core/services/monitoring"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

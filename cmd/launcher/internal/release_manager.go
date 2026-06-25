@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/internal"
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/internal"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // Release represents a LocalAI release

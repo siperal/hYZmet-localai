@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mudler/LocalAI/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/gallery"
 )
 
 func TestDeleteStagedModelFiles(t *testing.T) {

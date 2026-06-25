@@ -12,8 +12,8 @@ import (
 	"github.com/Masterminds/sprig/v3"
 	"github.com/labstack/echo/v4"
 	"github.com/microcosm-cc/bluemonday"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/schema"
 	"github.com/russross/blackfriday"
 )
 

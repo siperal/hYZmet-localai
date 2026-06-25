@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/advisorylock"
+	"github.com/siperal/hYZmet-localai/core/services/advisorylock"
 	"github.com/mudler/xlog"
 	"gorm.io/gorm"
 )

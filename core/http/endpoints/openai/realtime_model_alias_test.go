@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/config"
+	"github.com/siperal/hYZmet-localai/core/config"
 )
 
 // loadPipelineSubModel must resolve a pipeline sub-model that references an

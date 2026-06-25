@@ -11,9 +11,9 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo/v4"
-	. "github.com/mudler/LocalAI/core/http/endpoints/localai"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/system"
+	. "github.com/siperal/hYZmet-localai/core/http/endpoints/localai"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	corebackend "github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/trace"
-	pkggrpc "github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/model"
+	corebackend "github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/trace"
+	pkggrpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 	"github.com/mudler/xlog"
 )
 

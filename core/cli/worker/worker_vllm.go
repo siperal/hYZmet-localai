@@ -12,11 +12,11 @@ import (
 	"syscall"
 	"time"
 
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/cli/workerregistry"
-	"github.com/mudler/LocalAI/core/services/nodes"
-	"github.com/mudler/LocalAI/pkg/system"
-	"github.com/mudler/LocalAI/pkg/xsysinfo"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/cli/workerregistry"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/pkg/system"
+	"github.com/siperal/hYZmet-localai/pkg/xsysinfo"
 	"github.com/mudler/xlog"
 )
 

@@ -312,4 +312,4 @@ Grammars and function tools can be used as well in conjunction with vision APIs:
 
 ## 💡 Examples
 
-A full e2e example with `docker-compose` is available [here](https://github.com/mudler/LocalAI-examples/tree/main/functions).
+A full e2e example with `docker-compose` is available [here](https://github.com/siperal/hYZmet-localai-examples/tree/main/functions).

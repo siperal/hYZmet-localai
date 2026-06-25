@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 const (

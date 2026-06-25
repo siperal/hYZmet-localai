@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
 )
 
 var _ = Describe("StagingKeyMapper", func() {

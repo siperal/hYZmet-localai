@@ -12,8 +12,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
 	coreTypes "github.com/mudler/LocalAGI/core/types"
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/services/agents"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/services/agents"
 	"github.com/mudler/xlog"
 	"github.com/sashabaranov/go-openai"
 )

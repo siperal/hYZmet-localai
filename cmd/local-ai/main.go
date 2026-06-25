@@ -6,11 +6,11 @@ import (
 
 	"github.com/alecthomas/kong"
 	"github.com/joho/godotenv"
-	"github.com/mudler/LocalAI/core/cli"
-	"github.com/mudler/LocalAI/internal"
+	"github.com/siperal/hYZmet-localai/core/cli"
+	"github.com/siperal/hYZmet-localai/internal"
 	"github.com/mudler/xlog"
 
-	_ "github.com/mudler/LocalAI/swagger"
+	_ "github.com/siperal/hYZmet-localai/swagger"
 )
 
 func main() {
@@ -52,7 +52,7 @@ Version: ${version}
 For documentation and support:
   Documentation: https://localai.io/
   Getting Started: https://localai.io/basics/getting_started/
-  GitHub Issues: https://github.com/mudler/LocalAI/issues
+  GitHub Issues: https://github.com/siperal/hYZmet-localai/issues
 `,
 		),
 		kong.UsageOnError(),

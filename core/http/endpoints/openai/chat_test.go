@@ -1,14 +1,14 @@
 package openai
 
 import (
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/functions"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	reason "github.com/mudler/LocalAI/pkg/reasoning"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	reason "github.com/siperal/hYZmet-localai/pkg/reasoning"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/schema"
 )
 
 var _ = Describe("handleQuestion", func() {
@@ -97,7 +97,7 @@ var _ = Describe("handleQuestion", func() {
 })
 
 var _ = Describe("applyAutoparserOverride", func() {
-	// Regression test for https://github.com/mudler/LocalAI/issues/9985.
+	// Regression test for https://github.com/siperal/hYZmet-localai/issues/9985.
 	// When LocalAI templates a <think>-style reasoning model outside of jinja
 	// (e.g. the gallery qwen3 entry), the llama.cpp autoparser falls back to
 	// the "pure content" PEG parser which dumps the entire raw response,

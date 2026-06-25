@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/http/endpoints/localai"
-	"github.com/mudler/LocalAI/core/services/galleryop"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/localai"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
 )
 
 // InstallBackendOnNodeEndpoint became async to stop blocking the browser on

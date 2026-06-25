@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mudler/LocalAI/core/services/facerecognition"
-	"github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/services/facerecognition"
+	"github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 
 	grpclib "google.golang.org/grpc"
 )

@@ -12,12 +12,12 @@ import (
 	"github.com/mudler/xlog"
 
 	gguf "github.com/gpustack/gguf-parser-go"
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/oci"
-	"github.com/mudler/LocalAI/pkg/system"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/oci"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 )
 
 type UtilCMD struct {

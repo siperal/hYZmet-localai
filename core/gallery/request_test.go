@@ -1,7 +1,7 @@
 package gallery_test
 
 import (
-	. "github.com/mudler/LocalAI/core/gallery"
+	. "github.com/siperal/hYZmet-localai/core/gallery"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

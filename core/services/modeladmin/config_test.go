@@ -9,8 +9,8 @@ import (
 	. "github.com/onsi/gomega"
 	"gopkg.in/yaml.v3"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 )
 
 // newTestService stands up a ConfigService backed by a tmp dir so the file IO

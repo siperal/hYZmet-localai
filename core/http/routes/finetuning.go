@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/localai"
-	"github.com/mudler/LocalAI/core/services/finetune"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/localai"
+	"github.com/siperal/hYZmet-localai/core/services/finetune"
 )
 
 // RegisterFineTuningRoutes registers fine-tuning API routes.

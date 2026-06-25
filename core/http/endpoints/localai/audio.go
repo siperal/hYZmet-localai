@@ -12,8 +12,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 // Match `data:<mime>[;param=value...];base64,` — MediaRecorder in the browser

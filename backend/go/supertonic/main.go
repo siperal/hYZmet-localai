@@ -5,7 +5,7 @@ package main
 import (
 	"flag"
 
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
 	ort "github.com/yalue/onnxruntime_go"
 )
 

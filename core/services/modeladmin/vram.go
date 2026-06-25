@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/system"
-	"github.com/mudler/LocalAI/pkg/vram"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/system"
+	"github.com/siperal/hYZmet-localai/pkg/vram"
 )
 
 // VRAMRequest is the input for EstimateVRAM. JSON tags let the HTTP

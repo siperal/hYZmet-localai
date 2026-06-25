@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/explorer"
-	"github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/internal"
+	"github.com/siperal/hYZmet-localai/core/explorer"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/internal"
 )
 
 func Dashboard() echo.HandlerFunc {

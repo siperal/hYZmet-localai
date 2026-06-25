@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/advisorylock"
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/advisorylock"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 	"github.com/mudler/xlog"
 	"gorm.io/gorm"
 )

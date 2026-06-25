@@ -54,7 +54,7 @@
             --go-grpc_out=pkg/grpc/proto --go-grpc_opt=paths=source_relative \
             $PROTO_SOURCE_DIR/*.proto
 
-          go mod edit -replace github.com/mudler/LocalAI/pkg/grpc/proto=./pkg/grpc/proto
+          go mod edit -replace github.com/siperal/hYZmet-localai/pkg/grpc/proto=./pkg/grpc/proto
 
           mkdir -p core/http/react-ui
           cp -r ${reactUi}/dist core/http/react-ui/dist

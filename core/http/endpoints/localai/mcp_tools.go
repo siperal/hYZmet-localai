@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	mcpTools "github.com/mudler/LocalAI/core/http/endpoints/mcp"
-	"github.com/mudler/LocalAI/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/config"
+	mcpTools "github.com/siperal/hYZmet-localai/core/http/endpoints/mcp"
+	"github.com/siperal/hYZmet-localai/core/http/middleware"
 )
 
 // MCPServersEndpoint returns the list of MCP servers and their tools for a given model.

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/alecthomas/kong"
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
 )
 
 type CompletionCMD struct {

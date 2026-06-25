@@ -315,7 +315,7 @@ For instructions on building LocalAI from source, see the [Build from Source gui
 
 For instructions on GPU acceleration, visit the [GPU Acceleration]({{% relref "features/gpu-acceleration" %}}) page.
 
-For more model configurations, visit the [Examples Section](https://github.com/mudler/LocalAI-examples/tree/main/configurations).
+For more model configurations, visit the [Examples Section](https://github.com/siperal/hYZmet-localai-examples/tree/main/configurations).
 
 ## Understanding Model Files
 

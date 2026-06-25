@@ -3,7 +3,7 @@ package agentpool
 import (
 	"time"
 
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/schema"
 )
 
 // JobPersister abstracts task/job persistence between file-backed and DB-backed modes.

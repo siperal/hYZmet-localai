@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/cloudproxy/mitm"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/cloudproxy/mitm"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
 	"github.com/mudler/xlog"
 )
 

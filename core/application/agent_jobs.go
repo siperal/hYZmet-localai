@@ -3,7 +3,7 @@ package application
 import (
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/agentpool"
+	"github.com/siperal/hYZmet-localai/core/services/agentpool"
 	"github.com/mudler/xlog"
 )
 

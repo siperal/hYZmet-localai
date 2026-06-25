@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 	"gopkg.in/yaml.v3"
 )
 

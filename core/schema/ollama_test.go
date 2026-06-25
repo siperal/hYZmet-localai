@@ -3,7 +3,7 @@ package schema_test
 import (
 	"encoding/json"
 
-	. "github.com/mudler/LocalAI/core/schema"
+	. "github.com/siperal/hYZmet-localai/core/schema"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
@@ -54,7 +54,7 @@ var _ = Describe("OllamaEmbedRequest", func() {
 		// Ollama's embedding endpoint accepts both `input` and `prompt` keys:
 		// https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings
 		// LocalAI must accept `prompt` so client libraries using that key are not broken.
-		// See https://github.com/mudler/LocalAI/issues/9767.
+		// See https://github.com/siperal/hYZmet-localai/issues/9767.
 		It("accepts the 'prompt' field as a single string (Ollama compatibility)", func() {
 			body := []byte(`{"model": "m", "prompt": "why is the sky blue?"}`)
 
@@ -89,7 +89,7 @@ var _ = Describe("OllamaEmbedRequest", func() {
 // integer parameters as JSON floats (`8192.0`). Stdlib json refuses to
 // unmarshal those into `int` fields, so OllamaOptions has a custom
 // UnmarshalJSON that accepts both forms. See
-// https://github.com/mudler/LocalAI/issues/9837.
+// https://github.com/siperal/hYZmet-localai/issues/9837.
 var _ = Describe("OllamaOptions JSON unmarshaling", func() {
 	It("accepts integer literals for int fields", func() {
 		body := []byte(`{"num_ctx": 8192, "num_predict": 256, "top_k": 40, "seed": 7, "repeat_last_n": 64}`)

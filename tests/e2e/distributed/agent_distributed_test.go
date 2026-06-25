@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync/atomic"
 
-	"github.com/mudler/LocalAI/core/services/agents"
+	"github.com/siperal/hYZmet-localai/core/services/agents"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/routing/piipattern"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/functions"
-	"github.com/mudler/LocalAI/pkg/reasoning"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/routing/piipattern"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	"github.com/siperal/hYZmet-localai/pkg/reasoning"
 	"github.com/mudler/cogito"
 	"gopkg.in/yaml.v3"
 )

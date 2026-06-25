@@ -12,9 +12,9 @@ import (
 	"github.com/go-audio/audio"
 	"github.com/go-audio/wav"
 	gguf "github.com/gpustack/gguf-parser-go"
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

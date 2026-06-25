@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"strings"
 
-	laudio "github.com/mudler/LocalAI/pkg/audio"
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // vv_capi_asr loads audio with load_wav_24k_mono — a 24 kHz mono s16le

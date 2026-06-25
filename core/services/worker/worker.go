@@ -11,17 +11,17 @@ import (
 	"syscall"
 	"time"
 
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/cli/workerregistry"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/cli/workerregistry"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/core/services/nodes"
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/sanitize"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/sanitize"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	"github.com/mudler/xlog"
 )
 

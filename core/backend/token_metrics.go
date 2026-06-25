@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/grpc/proto"
-	model "github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	model "github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 func TokenMetrics(

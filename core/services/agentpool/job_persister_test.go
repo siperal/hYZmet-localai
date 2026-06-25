@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/jobs"
-	"github.com/mudler/LocalAI/core/services/testutil"
-	"github.com/mudler/LocalAI/pkg/xsync"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/jobs"
+	"github.com/siperal/hYZmet-localai/core/services/testutil"
+	"github.com/siperal/hYZmet-localai/pkg/xsync"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

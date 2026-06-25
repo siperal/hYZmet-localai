@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/services/nodes"
-	"github.com/mudler/LocalAI/core/services/testutil"
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/core/services/nodes"
+	"github.com/siperal/hYZmet-localai/core/services/testutil"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 	"github.com/nats-io/nkeys"
 
 	. "github.com/onsi/ginkgo/v2"

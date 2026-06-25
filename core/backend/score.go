@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/trace"
-	"github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	model "github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/trace"
+	"github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	model "github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // ScoreOptions controls a single Score request.

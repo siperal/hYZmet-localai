@@ -15,10 +15,10 @@ import (
 	"unsafe"
 
 	"github.com/ebitengine/purego"
-	laudio "github.com/mudler/LocalAI/pkg/audio"
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/utils"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 )
 
 type SherpaBackend struct {

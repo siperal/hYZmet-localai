@@ -19,9 +19,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/mudler/LocalAI/core/services/storage"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/services/storage"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 	"github.com/mudler/xlog"
 )
 

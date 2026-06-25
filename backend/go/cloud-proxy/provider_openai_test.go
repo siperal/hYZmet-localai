@@ -10,7 +10,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // fakeOpenAIUpstream returns an httptest.Server that decodes the

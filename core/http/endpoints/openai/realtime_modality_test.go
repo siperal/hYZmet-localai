@@ -1,7 +1,7 @@
 package openai
 
 import (
-	"github.com/mudler/LocalAI/core/http/endpoints/openai/types"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

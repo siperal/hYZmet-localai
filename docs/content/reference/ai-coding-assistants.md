@@ -11,9 +11,9 @@ This document provides guidance for AI tools and developers using AI assistance 
 
 AI tools helping with LocalAI development should follow the standard project development process:
 
-- [CONTRIBUTING.md](https://github.com/mudler/LocalAI/blob/master/CONTRIBUTING.md) — development workflow, commit conventions, and PR guidelines
-- [AGENTS.md](https://github.com/mudler/LocalAI/blob/master/AGENTS.md) — the agent entry point with links to all detailed topic guides
-- [.agents/ai-coding-assistants.md](https://github.com/mudler/LocalAI/blob/master/.agents/ai-coding-assistants.md) — the full policy source of truth
+- [CONTRIBUTING.md](https://github.com/siperal/hYZmet-localai/blob/master/CONTRIBUTING.md) — development workflow, commit conventions, and PR guidelines
+- [AGENTS.md](https://github.com/siperal/hYZmet-localai/blob/master/AGENTS.md) — the agent entry point with links to all detailed topic guides
+- [.agents/ai-coding-assistants.md](https://github.com/siperal/hYZmet-localai/blob/master/.agents/ai-coding-assistants.md) — the full policy source of truth
 
 ## Licensing and Legal Requirements
 

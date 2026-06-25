@@ -3,9 +3,9 @@ package cli
 import (
 	"context"
 
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/p2p"
-	"github.com/mudler/LocalAI/pkg/signals"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/p2p"
+	"github.com/siperal/hYZmet-localai/pkg/signals"
 )
 
 type FederatedCLI struct {

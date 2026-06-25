@@ -10,11 +10,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/services/galleryop"
-	localaitools "github.com/mudler/LocalAI/pkg/mcp/localaitools"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/services/galleryop"
+	localaitools "github.com/siperal/hYZmet-localai/pkg/mcp/localaitools"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 )
 
 // Regression spec for the bug we fixed when channel sends were

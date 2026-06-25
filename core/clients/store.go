@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // Define a struct to hold the store API client

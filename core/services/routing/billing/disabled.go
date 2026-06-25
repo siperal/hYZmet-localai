@@ -3,7 +3,7 @@ package billing
 import (
 	"context"
 
-	"github.com/mudler/LocalAI/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
 )
 
 // disabledBackend drops every record. Used when --disable-stats is set,

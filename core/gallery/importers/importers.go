@@ -11,10 +11,10 @@ import (
 	"github.com/mudler/xlog"
 	"gopkg.in/yaml.v3"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	hfapi "github.com/mudler/LocalAI/pkg/huggingface-api"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	hfapi "github.com/siperal/hYZmet-localai/pkg/huggingface-api"
 )
 
 // ErrAmbiguousImport is returned when HuggingFace metadata hints at a known

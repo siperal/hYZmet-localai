@@ -14,12 +14,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/auth"
-	"github.com/mudler/LocalAI/core/services/agents"
-	"github.com/mudler/LocalAI/core/services/distributed"
-	"github.com/mudler/LocalAI/core/services/messaging"
-	skillsManager "github.com/mudler/LocalAI/core/services/skills"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/services/agents"
+	"github.com/siperal/hYZmet-localai/core/services/distributed"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	skillsManager "github.com/siperal/hYZmet-localai/core/services/skills"
 
 	"github.com/mudler/LocalAGI/core/agent"
 	"github.com/mudler/LocalAGI/core/sse"

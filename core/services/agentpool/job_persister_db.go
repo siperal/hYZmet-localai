@@ -3,8 +3,8 @@ package agentpool
 import (
 	"time"
 
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/jobs"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/jobs"
 )
 
 // dbJobPersister persists tasks and jobs to PostgreSQL via JobStore.

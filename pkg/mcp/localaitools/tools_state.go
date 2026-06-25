@@ -6,7 +6,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/mudler/LocalAI/core/services/modeladmin"
+	"github.com/siperal/hYZmet-localai/core/services/modeladmin"
 )
 
 func registerStateTools(s *mcp.Server, client LocalAIClient, opts Options) {

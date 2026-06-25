@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	"github.com/streamer45/silero-vad-go/speech"
 )
 

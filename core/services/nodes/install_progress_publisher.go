@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 )
 
 // DebouncedInstallProgressPublisher buffers backend-install download ticks

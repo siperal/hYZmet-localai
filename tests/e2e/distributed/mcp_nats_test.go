@@ -5,11 +5,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	mcpTools "github.com/mudler/LocalAI/core/http/endpoints/mcp"
-	mcpRemote "github.com/mudler/LocalAI/core/services/mcp"
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/pkg/functions"
+	"github.com/siperal/hYZmet-localai/core/config"
+	mcpTools "github.com/siperal/hYZmet-localai/core/http/endpoints/mcp"
+	mcpRemote "github.com/siperal/hYZmet-localai/core/services/mcp"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

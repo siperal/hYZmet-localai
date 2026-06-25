@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/mudler/LocalAI/core/gallery/importers"
+	"github.com/siperal/hYZmet-localai/core/gallery/importers"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

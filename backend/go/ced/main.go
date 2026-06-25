@@ -15,7 +15,7 @@ import (
 	"runtime"
 
 	"github.com/ebitengine/purego"
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

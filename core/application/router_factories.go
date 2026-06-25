@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
 )
 
 // adapterConfig resolves a model name to its runtime ModelConfig, or nil when

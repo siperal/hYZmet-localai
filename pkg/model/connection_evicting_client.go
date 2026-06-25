@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	"github.com/mudler/xlog"
 	ggrpc "google.golang.org/grpc"
 )

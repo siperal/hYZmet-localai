@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mudler/LocalAI/core/backend"
+	"github.com/siperal/hYZmet-localai/core/backend"
 )
 
 // RerankClassifier scores each policy description against the prompt

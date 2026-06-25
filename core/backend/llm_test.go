@@ -1,10 +1,10 @@
 package backend_test
 
 import (
-	. "github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	. "github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

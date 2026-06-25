@@ -1,9 +1,9 @@
 package ollama
 
 import (
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/functions"
-	"github.com/mudler/LocalAI/pkg/reasoning"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	"github.com/siperal/hYZmet-localai/pkg/reasoning"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

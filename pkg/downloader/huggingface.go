@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 type HuggingFaceScanResult struct {

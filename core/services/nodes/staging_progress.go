@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 )
 
 // StagingStatus represents the current progress of a model staging operation.

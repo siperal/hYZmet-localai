@@ -2,8 +2,8 @@ package localai
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/monitoring"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/monitoring"
 )
 
 // BackendMonitorEndpoint returns the status of the specified backend

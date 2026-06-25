@@ -1,8 +1,8 @@
 package mcp
 
 import (
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/functions"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
 )
 
 // MCPToolRequest is the NATS request-reply payload for executing an MCP tool

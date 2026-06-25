@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 var _ = Describe("voiceStylePath", func() {

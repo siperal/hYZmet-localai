@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 	"github.com/nats-io/jwt/v2"
 	"github.com/nats-io/nkeys"
 	. "github.com/onsi/ginkgo/v2"

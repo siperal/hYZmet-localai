@@ -16,7 +16,7 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // RegistrationClient talks to the frontend's /api/node/* endpoints.

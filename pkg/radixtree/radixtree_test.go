@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/pkg/radixtree"
+	"github.com/siperal/hYZmet-localai/pkg/radixtree"
 )
 
 var t0 = time.Date(2026, 5, 29, 12, 0, 0, 0, time.UTC)

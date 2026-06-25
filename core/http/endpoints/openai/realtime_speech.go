@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/mudler/LocalAI/core/http/endpoints/openai/types"
-	laudio "github.com/mudler/LocalAI/pkg/audio"
-	"github.com/mudler/LocalAI/pkg/sound"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai/types"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
+	"github.com/siperal/hYZmet-localai/pkg/sound"
 )
 
 // emitSpeech synthesizes text and sends the audio to the client. When the

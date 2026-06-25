@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/xsysinfo"
+	"github.com/siperal/hYZmet-localai/pkg/xsysinfo"
 )
 
 // effectiveBasePort returns the port used as base for gRPC backend processes.

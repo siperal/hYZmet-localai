@@ -11,12 +11,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/core/services/nodes/prefixcache"
-	"github.com/mudler/LocalAI/core/services/testutil"
-	"github.com/mudler/LocalAI/pkg/distributedhdr"
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/nodes/prefixcache"
+	"github.com/siperal/hYZmet-localai/core/services/testutil"
+	"github.com/siperal/hYZmet-localai/pkg/distributedhdr"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	ggrpc "google.golang.org/grpc"
 	"gorm.io/gorm"
 )

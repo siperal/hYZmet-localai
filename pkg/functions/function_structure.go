@@ -3,7 +3,7 @@ package functions
 import (
 	"encoding/json"
 
-	"github.com/mudler/LocalAI/pkg/functions/grammars"
+	"github.com/siperal/hYZmet-localai/pkg/functions/grammars"
 )
 
 type Item struct {

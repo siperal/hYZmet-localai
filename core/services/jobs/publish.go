@@ -1,7 +1,7 @@
 package jobs
 
 import (
-	"github.com/mudler/LocalAI/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
 	"github.com/mudler/xlog"
 )
 

@@ -3,8 +3,8 @@
 package jobs_test
 
 import (
-	"github.com/mudler/LocalAI/core/http/auth"
-	"github.com/mudler/LocalAI/core/services/jobs"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/services/jobs"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

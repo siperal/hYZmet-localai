@@ -1,7 +1,7 @@
 package reasoning_test
 
 import (
-	. "github.com/mudler/LocalAI/pkg/reasoning"
+	. "github.com/siperal/hYZmet-localai/pkg/reasoning"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

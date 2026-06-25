@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // FaceEmbed loads the face recognition backend and returns a 512-d

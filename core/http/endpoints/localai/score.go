@@ -2,9 +2,9 @@ package localai
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // ScoreRequest is the wire format for POST /api/score. Mirrors the

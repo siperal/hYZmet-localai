@@ -1,8 +1,8 @@
 package config
 
 import (
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/reasoning"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/reasoning"
 
 	"github.com/gpustack/gguf-parser-go/util/ptr"
 	. "github.com/onsi/ginkgo/v2"

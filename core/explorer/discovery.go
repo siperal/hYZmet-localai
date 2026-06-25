@@ -9,8 +9,8 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/core/p2p"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/p2p"
+	"github.com/siperal/hYZmet-localai/core/schema"
 	"github.com/mudler/edgevpn/pkg/blockchain"
 )
 

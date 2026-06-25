@@ -27706,7 +27706,7 @@
   description: |
     a tiny vision language model that kicks ass and runs anywhere
   license: apache-2.0
-  icon: https://github.com/mudler/LocalAI/assets/2420543/05f7d1f8-0366-4981-8326-f8ed47ebb54d
+  icon: https://github.com/siperal/hYZmet-localai/assets/2420543/05f7d1f8-0366-4981-8326-f8ed47ebb54d
   tags:
     - moondream
     - multimodal

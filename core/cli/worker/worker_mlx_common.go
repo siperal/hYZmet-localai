@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 )
 
 const mlxDistributedGalleryName = "mlx-distributed"

@@ -6,7 +6,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
 	"github.com/mudler/xlog"
 )
 

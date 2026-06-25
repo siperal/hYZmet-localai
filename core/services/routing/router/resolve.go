@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
+	"github.com/siperal/hYZmet-localai/core/config"
 )
 
 // CandidateLoader resolves a candidate's model name to its parsed

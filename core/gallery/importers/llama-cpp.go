@@ -8,12 +8,12 @@ import (
 	"time"
 
 	gguf "github.com/gpustack/gguf-parser-go"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/functions"
-	hfapi "github.com/mudler/LocalAI/pkg/huggingface-api"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
+	hfapi "github.com/siperal/hYZmet-localai/pkg/huggingface-api"
 	"github.com/mudler/xlog"
 	"go.yaml.in/yaml/v2"
 )

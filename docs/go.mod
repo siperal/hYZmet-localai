@@ -1,3 +1,3 @@
-module github.com/mudler/LocalAI/docs
+module github.com/siperal/hYZmet-localai/docs
 
 go 1.19

@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/services/testutil"
+	"github.com/siperal/hYZmet-localai/core/services/testutil"
 )
 
 // These specs reproduce the distributed "pending ops behind dead nodes leak

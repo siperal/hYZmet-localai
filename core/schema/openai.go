@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	functions "github.com/mudler/LocalAI/pkg/functions"
+	functions "github.com/siperal/hYZmet-localai/pkg/functions"
 )
 
 // APIError provides error information returned by the OpenAI API.

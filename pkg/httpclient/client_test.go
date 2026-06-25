@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

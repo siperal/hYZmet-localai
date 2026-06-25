@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
 )
 
 // requireAssistantAccess gates a chat request that asked for the LocalAI

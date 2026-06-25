@@ -3,8 +3,8 @@ package grammars_test
 import (
 	"strings"
 
-	. "github.com/mudler/LocalAI/pkg/functions"
-	. "github.com/mudler/LocalAI/pkg/functions/grammars"
+	. "github.com/siperal/hYZmet-localai/pkg/functions"
+	. "github.com/siperal/hYZmet-localai/pkg/functions/grammars"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

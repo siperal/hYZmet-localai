@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	mcpTools "github.com/mudler/LocalAI/core/http/endpoints/mcp"
+	"github.com/siperal/hYZmet-localai/core/config"
+	mcpTools "github.com/siperal/hYZmet-localai/core/http/endpoints/mcp"
 )
 
 // MCPResourcesEndpoint returns the list of MCP resources for a given model.

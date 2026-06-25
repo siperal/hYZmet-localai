@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
-	"github.com/mudler/LocalAI/pkg/grpc/proto"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 )
 
 // Wrapper for the GRPC client so that simple use cases are handled without verbosity

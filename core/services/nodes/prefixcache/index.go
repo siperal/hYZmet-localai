@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/radixtree"
+	"github.com/siperal/hYZmet-localai/pkg/radixtree"
 )
 
 // Index is the guessed (routing-history) Provider backed by per-model radix

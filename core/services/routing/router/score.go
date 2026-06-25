@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/Masterminds/sprig/v3"
-	"github.com/mudler/LocalAI/core/backend"
+	"github.com/siperal/hYZmet-localai/core/backend"
 	"github.com/mudler/xlog"
 )
 

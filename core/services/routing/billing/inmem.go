@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
 )
 
 // memoryBackend keeps the most recent N records in a ring buffer. It is

@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	hfapi "github.com/mudler/LocalAI/pkg/huggingface-api"
+	hfapi "github.com/siperal/hYZmet-localai/pkg/huggingface-api"
 )
 
 // HasFile returns true when any file in files has exactly the given basename.

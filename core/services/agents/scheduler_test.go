@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/services/testutil"
+	"github.com/siperal/hYZmet-localai/core/services/testutil"
 )
 
 // mockPublisher records all Publish calls for assertions.

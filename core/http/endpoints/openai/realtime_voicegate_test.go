@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/voicerecognition"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/voicerecognition"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

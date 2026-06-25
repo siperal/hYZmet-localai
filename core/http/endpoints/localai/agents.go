@@ -16,11 +16,11 @@ import (
 	"github.com/mudler/LocalAGI/core/state"
 	coreTypes "github.com/mudler/LocalAGI/core/types"
 	agiServices "github.com/mudler/LocalAGI/services"
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/http/auth"
-	"github.com/mudler/LocalAI/core/services/agentpool"
-	"github.com/mudler/LocalAI/core/services/agents"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/services/agentpool"
+	"github.com/siperal/hYZmet-localai/core/services/agents"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 	"github.com/mudler/xlog"
 )
 

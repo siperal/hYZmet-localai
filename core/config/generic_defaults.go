@@ -17,7 +17,7 @@ func ApplyGenericDefaults(cfg *ModelConfig) {
 	defaultTopK := 40
 	defaultMinP := 0.0
 	defaultTemp := 0.9
-	// https://github.com/mudler/LocalAI/issues/2780
+	// https://github.com/siperal/hYZmet-localai/issues/2780
 	defaultMirostat := 0
 	defaultMirostatTAU := 5.0
 	defaultMirostatETA := 0.1

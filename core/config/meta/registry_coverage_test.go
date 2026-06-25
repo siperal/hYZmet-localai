@@ -8,8 +8,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/config/meta"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/config/meta"
 )
 
 // TestAllFieldsHaveRegistryEntries fails when a NEW ModelConfig field

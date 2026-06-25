@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/mudler/LocalAI/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
 	"github.com/mudler/xlog"
 )
 

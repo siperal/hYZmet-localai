@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	. "github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
+	. "github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
 
 	gguf "github.com/gpustack/gguf-parser-go"
 	. "github.com/onsi/ginkgo/v2"
@@ -201,7 +201,7 @@ var _ = Describe("Backend hooks and parser defaults", func() {
 	})
 
 	Context("llamaCppDefaults GGUF guessing", func() {
-		// Regression coverage for https://github.com/mudler/LocalAI/issues/9790:
+		// Regression coverage for https://github.com/siperal/hYZmet-localai/issues/9790:
 		// the hook reads GGUF headers with SkipLargeMetadata + UseMMap to avoid
 		// pulling the whole tokenizer vocab off (slow) disk on every startup. This
 		// verifies that skipping the vocab array still yields the correct guessed

@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/mudler/LocalAI/core/backend"
+	"github.com/siperal/hYZmet-localai/core/backend"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/explorer"
-	"github.com/mudler/LocalAI/core/http"
-	"github.com/mudler/LocalAI/pkg/signals"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/explorer"
+	"github.com/siperal/hYZmet-localai/core/http"
+	"github.com/siperal/hYZmet-localai/pkg/signals"
 	"github.com/mudler/xlog"
 )
 

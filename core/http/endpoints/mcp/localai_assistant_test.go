@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/modeladmin"
-	localaitools "github.com/mudler/LocalAI/pkg/mcp/localaitools"
-	"github.com/mudler/LocalAI/pkg/vram"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/modeladmin"
+	localaitools "github.com/siperal/hYZmet-localai/pkg/mcp/localaitools"
+	"github.com/siperal/hYZmet-localai/pkg/vram"
 )
 
 // stubClient is the minimum LocalAIClient impl needed to exercise the holder.

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/mudler/LocalAI/core/gallery/importers"
-	. "github.com/mudler/LocalAI/core/gallery/importers"
-	hfapi "github.com/mudler/LocalAI/pkg/huggingface-api"
+	"github.com/siperal/hYZmet-localai/core/gallery/importers"
+	. "github.com/siperal/hYZmet-localai/core/gallery/importers"
+	hfapi "github.com/siperal/hYZmet-localai/pkg/huggingface-api"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

@@ -10,9 +10,9 @@ import (
 
 	"github.com/mudler/LocalAGI/core/state"
 	coreTypes "github.com/mudler/LocalAGI/core/types"
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/agentpool"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/agentpool"
 	"github.com/mudler/xlog"
 )
 

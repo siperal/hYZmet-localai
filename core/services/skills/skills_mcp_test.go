@@ -9,7 +9,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 	agiSkills "github.com/mudler/LocalAGI/services/skills"
-	localskills "github.com/mudler/LocalAI/core/services/skills"
+	localskills "github.com/siperal/hYZmet-localai/core/services/skills"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

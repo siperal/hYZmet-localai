@@ -13,10 +13,10 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/pkg/grpc/base"
-	"github.com/mudler/LocalAI/pkg/grpc/grpcerrors"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/base"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/grpcerrors"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // Mirror of core/config.Proxy{Mode,Provider}* — backends don't

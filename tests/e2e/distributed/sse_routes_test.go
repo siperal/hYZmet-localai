@@ -3,9 +3,9 @@ package distributed_test
 import (
 	"context"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/agents"
-	"github.com/mudler/LocalAI/core/services/jobs"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/agents"
+	"github.com/siperal/hYZmet-localai/core/services/jobs"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

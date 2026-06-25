@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/advisorylock"
-	"github.com/mudler/LocalAI/core/services/nodes/prefixcache"
-	grpcclient "github.com/mudler/LocalAI/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/core/services/advisorylock"
+	"github.com/siperal/hYZmet-localai/core/services/nodes/prefixcache"
+	grpcclient "github.com/siperal/hYZmet-localai/pkg/grpc"
 	"github.com/mudler/xlog"
 	"github.com/nats-io/nats.go"
 	"gorm.io/gorm"

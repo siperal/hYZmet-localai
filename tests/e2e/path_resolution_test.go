@@ -10,7 +10,7 @@ import (
 	"github.com/openai/openai-go/v3"
 )
 
-// Regression test for https://github.com/mudler/LocalAI/issues/9675.
+// Regression test for https://github.com/siperal/hYZmet-localai/issues/9675.
 // Relative draft_model paths used to be sent verbatim to the backend, which
 // then opened them from its CWD and failed with "No such file or directory".
 // The fix in core/backend/options.go resolves draft_model against the

@@ -1527,7 +1527,7 @@
 - &local-store
   name: "local-store"
   urls:
-    - https://github.com/mudler/LocalAI
+    - https://github.com/siperal/hYZmet-localai
   description: |
     Local Store is a local-first, self-hosted, and open-source vector database.
   tags:

@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/swagger"
+	"github.com/siperal/hYZmet-localai/swagger"
 	"github.com/mudler/xlog"
 )
 

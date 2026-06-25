@@ -8,7 +8,7 @@ icon = "newspaper"
 
 Release notes have been now moved completely over Github releases.
 
-You can see the release notes [here](https://github.com/mudler/LocalAI/releases).
+You can see the release notes [here](https://github.com/siperal/hYZmet-localai/releases).
 
 ## 2026 Highlights
 
@@ -21,12 +21,12 @@ You can see the release notes [here](https://github.com/mudler/LocalAI/releases)
 
 ## 2024 Highlights
 
-- **April 2024**: [Reranker API](https://github.com/mudler/LocalAI/pull/2121)
-- **May 2024**: [Distributed inferencing](https://github.com/mudler/LocalAI/pull/2324), [Decentralized P2P llama.cpp](https://github.com/mudler/LocalAI/pull/2343) — [Docs](https://localai.io/features/distribute/)
-- **July/August 2024**: [P2P Dashboard, Federated mode and AI Swarms](https://github.com/mudler/LocalAI/pull/2723), [P2P Global community pools](https://github.com/mudler/LocalAI/issues/3113), FLUX-1 support, [P2P Explorer](https://explorer.localai.io)
-- **October 2024**: Examples moved to [LocalAI-examples](https://github.com/mudler/LocalAI-examples)
-- **November 2024**: [Voice Activity Detection (VAD)](https://github.com/mudler/LocalAI/pull/4204), [Bark.cpp backend](https://github.com/mudler/LocalAI/pull/4287)
-- **December 2024**: [stablediffusion.cpp backend (ggml)](https://github.com/mudler/LocalAI/pull/4289)
+- **April 2024**: [Reranker API](https://github.com/siperal/hYZmet-localai/pull/2121)
+- **May 2024**: [Distributed inferencing](https://github.com/siperal/hYZmet-localai/pull/2324), [Decentralized P2P llama.cpp](https://github.com/siperal/hYZmet-localai/pull/2343) — [Docs](https://localai.io/features/distribute/)
+- **July/August 2024**: [P2P Dashboard, Federated mode and AI Swarms](https://github.com/siperal/hYZmet-localai/pull/2723), [P2P Global community pools](https://github.com/siperal/hYZmet-localai/issues/3113), FLUX-1 support, [P2P Explorer](https://explorer.localai.io)
+- **October 2024**: Examples moved to [LocalAI-examples](https://github.com/siperal/hYZmet-localai-examples)
+- **November 2024**: [Voice Activity Detection (VAD)](https://github.com/siperal/hYZmet-localai/pull/4204), [Bark.cpp backend](https://github.com/siperal/hYZmet-localai/pull/4287)
+- **December 2024**: [stablediffusion.cpp backend (ggml)](https://github.com/siperal/hYZmet-localai/pull/4289)
 
 ---
 
@@ -52,11 +52,11 @@ New:
 Due to the python dependencies size of images grew in size. 
 If you still want to use smaller images without python dependencies, you can use the corresponding images tags ending with `-core`.
 
-Full changelog: https://github.com/mudler/LocalAI/releases/tag/v2.0.0
+Full changelog: https://github.com/siperal/hYZmet-localai/releases/tag/v2.0.0
 
 ## 30-10-2023: __v1.40.0__
 
-This release is a preparation before v2 - the efforts now will be to refactor, polish and add new backends. Follow up on: https://github.com/mudler/LocalAI/issues/1126
+This release is a preparation before v2 - the efforts now will be to refactor, polish and add new backends. Follow up on: https://github.com/siperal/hYZmet-localai/issues/1126
 
 ## Hot topics
 
@@ -70,7 +70,7 @@ This release bring support for AMD thanks to @65a .  See more details in {{< pr 
 
 Thanks to @jespino now the local-ai binary has more subcommands allowing to manage the gallery or try out directly inferencing, check it out!
 
-[Release notes](https://github.com/mudler/LocalAI/releases/tag/v1.40.0)
+[Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v1.40.0)
 
 ## 25-09-2023: __v1.30.0__
 
@@ -78,7 +78,7 @@ This is an exciting LocalAI release! Besides bug-fixes and enhancements this rel
 
 Check out the documentation for vllm [here](https://localai.io/model-compatibility/vllm/) and Vall-E-X [here](https://localai.io/model-compatibility/vall-e-x/)
 
-[Release notes](https://github.com/mudler/LocalAI/releases/tag/v1.30.0)
+[Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v1.30.0)
 
 ## 26-08-2023: __v1.25.0__
 
@@ -117,8 +117,8 @@ Thanks to the community efforts now we have a new [how-to website](https://io.mi
 
 #### 💡 More examples!
 
-- Open source autopilot? See the new addition by {{< github "gruberdev" >}} in our [examples](https://github.com/mudler/LocalAI-examples/tree/main/continue) on how to use Continue with LocalAI!
-- Want to try LocalAI with Insomnia? Check out the new [Insomnia example](https://github.com/mudler/LocalAI-examples/tree/main/insomnia) by {{< github "dave-gray101" >}}!
+- Open source autopilot? See the new addition by {{< github "gruberdev" >}} in our [examples](https://github.com/siperal/hYZmet-localai-examples/tree/main/continue) on how to use Continue with LocalAI!
+- Want to try LocalAI with Insomnia? Check out the new [Insomnia example](https://github.com/siperal/hYZmet-localai-examples/tree/main/insomnia) by {{< github "dave-gray101" >}}!
 
 #### LocalAGI in discord!
 
@@ -276,7 +276,7 @@ And here when it actually picks to reply to the user instead of using functions!
 
 Note: functions are supported only with `llama.cpp`-compatible models.
 
-A full example is available here: https://github.com/mudler/LocalAI-examples/tree/main/functions
+A full example is available here: https://github.com/siperal/hYZmet-localai-examples/tree/main/functions
 
 ### gRPC backends
 
@@ -395,9 +395,9 @@ We now support a vast variety of models, while being backward compatible with pr
 
 ### Examples
 
-- 💡 [AutoGPT](https://github.com/mudler/LocalAI-examples/tree/main/autoGPT) example ( [mudler](https://github.com/mudler) )
-- 💡 [PrivateGPT](https://github.com/mudler/LocalAI-examples/tree/main/privateGPT) example ( [mudler](https://github.com/mudler) )
-- 💡 [Flowise](https://github.com/mudler/LocalAI-examples/tree/main/flowise) example ( [mudler](https://github.com/mudler) )
+- 💡 [AutoGPT](https://github.com/siperal/hYZmet-localai-examples/tree/main/autoGPT) example ( [mudler](https://github.com/mudler) )
+- 💡 [PrivateGPT](https://github.com/siperal/hYZmet-localai-examples/tree/main/privateGPT) example ( [mudler](https://github.com/mudler) )
+- 💡 [Flowise](https://github.com/siperal/hYZmet-localai-examples/tree/main/flowise) example ( [mudler](https://github.com/mudler) )
 
 Two new projects offer now direct integration with LocalAI!
 
@@ -464,7 +464,7 @@ Now LocalAI can generate images too:
 
 - 14-05-2023: __v1.11.1__ released! `rwkv` backend patch release
 - 13-05-2023: __v1.11.0__ released! 🔥 Updated `llama.cpp` bindings: This update includes a breaking change in the model files ( https://github.com/ggerganov/llama.cpp/pull/1405 ) - old models should still work with the `gpt4all-llama` backend.
-- 12-05-2023: __v1.10.0__ released! 🔥🔥 Updated `gpt4all` bindings. Added support for GPTNeox (experimental), RedPajama (experimental), Starcoder (experimental), Replit (experimental), MosaicML MPT. Also now `embeddings` endpoint supports tokens arrays. See the [langchain-chroma](https://github.com/mudler/LocalAI-examples/tree/main/langchain-chroma) example! Note - this update does NOT include https://github.com/ggerganov/llama.cpp/pull/1405 which makes models incompatible.
+- 12-05-2023: __v1.10.0__ released! 🔥🔥 Updated `gpt4all` bindings. Added support for GPTNeox (experimental), RedPajama (experimental), Starcoder (experimental), Replit (experimental), MosaicML MPT. Also now `embeddings` endpoint supports tokens arrays. See the [langchain-chroma](https://github.com/siperal/hYZmet-localai-examples/tree/main/langchain-chroma) example! Note - this update does NOT include https://github.com/ggerganov/llama.cpp/pull/1405 which makes models incompatible.
 - 11-05-2023: __v1.9.0__ released! 🔥 Important whisper updates ( {{< pr "233" >}} {{< pr "229" >}} ) and extended gpt4all model families support ( {{< pr "232" >}} ). Redpajama/dolly experimental ( {{< pr "214" >}} )
 - 10-05-2023: __v1.8.0__ released! 🔥 Added support for fast and accurate embeddings with `bert.cpp` ( {{< pr "222" >}} )
 - 09-05-2023: Added experimental support for transcriptions endpoint ( {{< pr "211" >}} )

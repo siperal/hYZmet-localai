@@ -13,8 +13,8 @@ import (
 
 	"github.com/emirpasic/gods/v2/queues/circularbuffer"
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/application"
-	"github.com/mudler/LocalAI/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/application"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
 	"github.com/mudler/xlog"
 )
 

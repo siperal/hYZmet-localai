@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
-	"github.com/mudler/LocalAI/core/services/routing/piidetector"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/services/routing/piidetector"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

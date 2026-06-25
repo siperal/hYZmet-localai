@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/messaging"
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/system"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	process "github.com/mudler/go-processmanager"
 	"github.com/mudler/xlog"
 )

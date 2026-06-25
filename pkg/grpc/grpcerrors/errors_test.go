@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/mudler/LocalAI/pkg/grpc/grpcerrors"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/grpcerrors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

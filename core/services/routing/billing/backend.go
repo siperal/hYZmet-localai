@@ -7,7 +7,7 @@ package billing
 import (
 	"context"
 
-	"github.com/mudler/LocalAI/core/http/auth"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
 )
 
 // StatsBackend is the persistence target for usage records. Three

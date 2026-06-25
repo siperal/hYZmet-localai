@@ -12,9 +12,9 @@ import (
 	"sync"
 
 	"github.com/charmbracelet/glamour"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 	"github.com/mudler/xlog"
 	"gopkg.in/yaml.v3"
 )

@@ -3,7 +3,7 @@ package galleryop
 import (
 	"context"
 
-	"github.com/mudler/LocalAI/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/gallery"
 )
 
 // ProgressCallback reports download progress for model/backend installations.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
 )
 
 // ModelRouter is used by SmartRouter for routing decisions and model lifecycle.

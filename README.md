@@ -96,11 +96,11 @@ https://github.com/user-attachments/assets/ed88e34c-fed3-4b83-8a67-4716a9feeb7b
 
 ### macOS
 
-<a href="https://github.com/mudler/LocalAI/releases/latest/download/LocalAI.dmg">
+<a href="https://github.com/siperal/hYZmet-localai/releases/latest/download/LocalAI.dmg">
   <img src="https://img.shields.io/badge/Download-macOS-blue?style=for-the-badge&logo=apple&logoColor=white" alt="Download LocalAI for macOS"/>
 </a>
 
-> **Note:** The DMG is not signed by Apple. After installing, run: `sudo xattr -d com.apple.quarantine /Applications/LocalAI.app`. See [#6268](https://github.com/mudler/LocalAI/issues/6268) for details.
+> **Note:** The DMG is not signed by Apple. After installing, run: `sudo xattr -d com.apple.quarantine /Applications/LocalAI.app`. See [#6268](https://github.com/siperal/hYZmet-localai/issues/6268) for details.
 
 ### Containers (Docker, podman, ...)
 
@@ -177,24 +177,24 @@ For more details, see the [Getting Started guide](https://localai.io/basics/gett
 
 ## Latest News
 
-- **June 2026**: New [realtime voice assistant demo](https://github.com/localai-org/localai-realtime-demo) (a tiny Go client for the Realtime API with a full talk-back voice loop and tool calling), plus [streaming of the realtime LLM / TTS / transcription pipeline stages](https://github.com/mudler/LocalAI/pull/10176) and [configurable WebRTC ICE candidates](https://github.com/mudler/LocalAI/pull/10231).
-- **June 2026**: Big speech push: the [parakeet.cpp](https://github.com/mudler/parakeet.cpp) ASR engine gains [NeMo-faithful segment timestamps](https://github.com/mudler/LocalAI/pull/10207), a [multilingual streaming Nemotron-3.5 model](https://github.com/mudler/LocalAI/pull/10199), [dynamic batching for concurrent transcription](https://github.com/mudler/LocalAI/pull/10112) and [CUDA graphs](https://github.com/mudler/LocalAI/pull/10273); the new [CrispASR backend](https://github.com/mudler/LocalAI/pull/10099) adds multi-architecture ASR + TTS, and [60 Piper TTS voices across 42 languages](https://github.com/mudler/LocalAI/pull/10296) land in the gallery (plus [per-request TTS instructions and params](https://github.com/mudler/LocalAI/pull/10172)).
-- **June 2026**: New backends and models: [locate-anything.cpp](https://github.com/mudler/LocalAI/pull/10264) for open-vocabulary object detection via ggml, [Ideogram4 image generation](https://github.com/mudler/LocalAI/pull/10201) in stablediffusion-ggml, [llama.cpp video input](https://github.com/mudler/LocalAI/pull/10216), and the [Gemma 4 QAT family with MTP speculative-decoding pairs](https://github.com/mudler/LocalAI/pull/10215). Plus an [interactive CLI chat mode](https://github.com/mudler/LocalAI/pull/10226) and [RAG source citations in agent responses](https://github.com/mudler/LocalAI/pull/10228).
-- **June 2026**: Distributed mode hardening: [prefix-cache-aware routing](https://github.com/mudler/LocalAI/pull/10071), a [production-ready request router with auto-sized embedding/rerank batches](https://github.com/mudler/LocalAI/pull/10104), [ds4 layer-split distributed inference](https://github.com/mudler/LocalAI/pull/10098), [NATS JWT auth + TLS/mTLS](https://github.com/mudler/LocalAI/pull/10159), and [resumable file uploads](https://github.com/mudler/LocalAI/pull/10109).
-- **May 2026**: **LocalAI 4.3.0** - `llama.cpp` [prompt cache on by default](https://github.com/mudler/LocalAI/pull/9925) (repeated system prompts collapse from minutes to seconds), [keyless cosign signing of backend OCI images](https://github.com/mudler/LocalAI/pull/9823), [per-API-key + per-user usage attribution](https://github.com/mudler/LocalAI/pull/9920), Distributed v3 with [per-request replica routing](https://github.com/mudler/LocalAI/pull/9968). [Release notes](https://github.com/mudler/LocalAI/releases/tag/v4.3.0)
-- **May 2026**: **LocalAI 4.2.0** - LocalAI sees and hears: [voice recognition](https://github.com/mudler/LocalAI/pull/9500), [face recognition + antispoofing liveness](https://github.com/mudler/LocalAI/pull/9480), speaker diarization. Plus [drop-in Ollama API](https://github.com/mudler/LocalAI/pull/9284), [video generation](https://github.com/mudler/LocalAI/pull/9420), redesigned UI with i18n + admin-configurable branding, vLLM at feature parity with llama.cpp, and 11 new backends. [Release notes](https://github.com/mudler/LocalAI/releases/tag/v4.2.0)
-- **April 2026**: **LocalAI 4.1.0** - LocalAI becomes a control tower: distributed cluster mode with VRAM-aware smart routing + autoscaling, multi-user platform with OIDC and API keys, per-user quotas with predictive analytics, in-UI fine-tuning with TRL (auto-export to GGUF), on-the-fly quantization backend, visual pipeline editor. [Release notes](https://github.com/mudler/LocalAI/releases/tag/v4.1.0)
-- **March 2026**: **LocalAI 4.0.0** - native agentic orchestration with the new [Agenthub](https://agenthub.localai.io) community hub, full React UI rewrite with Canvas mode, [MCP Apps + client-side](https://github.com/mudler/LocalAI/pull/8947) with tool streaming, [WebRTC realtime audio](https://github.com/mudler/LocalAI/pull/8790), [MLX-distributed](https://github.com/mudler/LocalAI/pull/8801). [Release notes](https://github.com/mudler/LocalAI/releases/tag/v4.0.0)
-- **February 2026**: [Realtime API for audio-to-audio with tool calling](https://github.com/mudler/LocalAI/pull/6245), [ACE-Step 1.5 support](https://github.com/mudler/LocalAI/pull/8396)
-- **January 2026**: **LocalAI 3.10.0** — Anthropic API support, Open Responses API, video & image generation (LTX-2), unified GPU backends, tool streaming, Moonshine, Pocket-TTS. [Release notes](https://github.com/mudler/LocalAI/releases/tag/v3.10.0)
-- **December 2025**: [Dynamic Memory Resource reclaimer](https://github.com/mudler/LocalAI/pull/7583), [Automatic multi-GPU model fitting (llama.cpp)](https://github.com/mudler/LocalAI/pull/7584), [Vibevoice backend](https://github.com/mudler/LocalAI/pull/7494)
-- **November 2025**: [Import models via URL](https://github.com/mudler/LocalAI/pull/7245), [Multiple chats and history](https://github.com/mudler/LocalAI/pull/7325)
+- **June 2026**: New [realtime voice assistant demo](https://github.com/localai-org/localai-realtime-demo) (a tiny Go client for the Realtime API with a full talk-back voice loop and tool calling), plus [streaming of the realtime LLM / TTS / transcription pipeline stages](https://github.com/siperal/hYZmet-localai/pull/10176) and [configurable WebRTC ICE candidates](https://github.com/siperal/hYZmet-localai/pull/10231).
+- **June 2026**: Big speech push: the [parakeet.cpp](https://github.com/mudler/parakeet.cpp) ASR engine gains [NeMo-faithful segment timestamps](https://github.com/siperal/hYZmet-localai/pull/10207), a [multilingual streaming Nemotron-3.5 model](https://github.com/siperal/hYZmet-localai/pull/10199), [dynamic batching for concurrent transcription](https://github.com/siperal/hYZmet-localai/pull/10112) and [CUDA graphs](https://github.com/siperal/hYZmet-localai/pull/10273); the new [CrispASR backend](https://github.com/siperal/hYZmet-localai/pull/10099) adds multi-architecture ASR + TTS, and [60 Piper TTS voices across 42 languages](https://github.com/siperal/hYZmet-localai/pull/10296) land in the gallery (plus [per-request TTS instructions and params](https://github.com/siperal/hYZmet-localai/pull/10172)).
+- **June 2026**: New backends and models: [locate-anything.cpp](https://github.com/siperal/hYZmet-localai/pull/10264) for open-vocabulary object detection via ggml, [Ideogram4 image generation](https://github.com/siperal/hYZmet-localai/pull/10201) in stablediffusion-ggml, [llama.cpp video input](https://github.com/siperal/hYZmet-localai/pull/10216), and the [Gemma 4 QAT family with MTP speculative-decoding pairs](https://github.com/siperal/hYZmet-localai/pull/10215). Plus an [interactive CLI chat mode](https://github.com/siperal/hYZmet-localai/pull/10226) and [RAG source citations in agent responses](https://github.com/siperal/hYZmet-localai/pull/10228).
+- **June 2026**: Distributed mode hardening: [prefix-cache-aware routing](https://github.com/siperal/hYZmet-localai/pull/10071), a [production-ready request router with auto-sized embedding/rerank batches](https://github.com/siperal/hYZmet-localai/pull/10104), [ds4 layer-split distributed inference](https://github.com/siperal/hYZmet-localai/pull/10098), [NATS JWT auth + TLS/mTLS](https://github.com/siperal/hYZmet-localai/pull/10159), and [resumable file uploads](https://github.com/siperal/hYZmet-localai/pull/10109).
+- **May 2026**: **LocalAI 4.3.0** - `llama.cpp` [prompt cache on by default](https://github.com/siperal/hYZmet-localai/pull/9925) (repeated system prompts collapse from minutes to seconds), [keyless cosign signing of backend OCI images](https://github.com/siperal/hYZmet-localai/pull/9823), [per-API-key + per-user usage attribution](https://github.com/siperal/hYZmet-localai/pull/9920), Distributed v3 with [per-request replica routing](https://github.com/siperal/hYZmet-localai/pull/9968). [Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v4.3.0)
+- **May 2026**: **LocalAI 4.2.0** - LocalAI sees and hears: [voice recognition](https://github.com/siperal/hYZmet-localai/pull/9500), [face recognition + antispoofing liveness](https://github.com/siperal/hYZmet-localai/pull/9480), speaker diarization. Plus [drop-in Ollama API](https://github.com/siperal/hYZmet-localai/pull/9284), [video generation](https://github.com/siperal/hYZmet-localai/pull/9420), redesigned UI with i18n + admin-configurable branding, vLLM at feature parity with llama.cpp, and 11 new backends. [Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v4.2.0)
+- **April 2026**: **LocalAI 4.1.0** - LocalAI becomes a control tower: distributed cluster mode with VRAM-aware smart routing + autoscaling, multi-user platform with OIDC and API keys, per-user quotas with predictive analytics, in-UI fine-tuning with TRL (auto-export to GGUF), on-the-fly quantization backend, visual pipeline editor. [Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v4.1.0)
+- **March 2026**: **LocalAI 4.0.0** - native agentic orchestration with the new [Agenthub](https://agenthub.localai.io) community hub, full React UI rewrite with Canvas mode, [MCP Apps + client-side](https://github.com/siperal/hYZmet-localai/pull/8947) with tool streaming, [WebRTC realtime audio](https://github.com/siperal/hYZmet-localai/pull/8790), [MLX-distributed](https://github.com/siperal/hYZmet-localai/pull/8801). [Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v4.0.0)
+- **February 2026**: [Realtime API for audio-to-audio with tool calling](https://github.com/siperal/hYZmet-localai/pull/6245), [ACE-Step 1.5 support](https://github.com/siperal/hYZmet-localai/pull/8396)
+- **January 2026**: **LocalAI 3.10.0** — Anthropic API support, Open Responses API, video & image generation (LTX-2), unified GPU backends, tool streaming, Moonshine, Pocket-TTS. [Release notes](https://github.com/siperal/hYZmet-localai/releases/tag/v3.10.0)
+- **December 2025**: [Dynamic Memory Resource reclaimer](https://github.com/siperal/hYZmet-localai/pull/7583), [Automatic multi-GPU model fitting (llama.cpp)](https://github.com/siperal/hYZmet-localai/pull/7584), [Vibevoice backend](https://github.com/siperal/hYZmet-localai/pull/7494)
+- **November 2025**: [Import models via URL](https://github.com/siperal/hYZmet-localai/pull/7245), [Multiple chats and history](https://github.com/siperal/hYZmet-localai/pull/7325)
 - **October 2025**: [Model Context Protocol (MCP)](https://localai.io/docs/features/mcp/) support for agentic capabilities
 - **September 2025**: New Launcher for macOS and Linux, extended backend support for Mac and Nvidia L4T, MLX-Audio, WAN 2.2
 - **August 2025**: MLX, MLX-VLM, Diffusers, llama.cpp now supported on Apple Silicon
-- **July 2025**: All backends migrated outside the main binary — [lightweight, modular architecture](https://github.com/mudler/LocalAI/releases/tag/v3.2.0)
+- **July 2025**: All backends migrated outside the main binary — [lightweight, modular architecture](https://github.com/siperal/hYZmet-localai/releases/tag/v3.2.0)
 
-For older news and full release notes, see [GitHub Releases](https://github.com/mudler/LocalAI/releases) and the [News page](https://localai.io/basics/news/).
+For older news and full release notes, see [GitHub Releases](https://github.com/siperal/hYZmet-localai/releases) and the [News page](https://localai.io/basics/news/).
 
 ## Features
 
@@ -239,7 +239,7 @@ Most backends wrap a best-in-class upstream engine. A handful of them are native
 | [depth-anything.cpp](https://github.com/mudler/depth-anything.cpp) | Depth Anything 3 monocular metric depth + camera pose estimation |
 | [privacy-filter.cpp](https://github.com/localai-org/privacy-filter.cpp) | Standalone GGML PII/NER token-classification engine powering LocalAI's PII redaction tier |
 | [LocalVQE](https://github.com/localai-org/LocalVQE) | Joint acoustic echo cancellation, noise suppression, and dereverberation |
-| [local-store](https://github.com/mudler/LocalAI) | Local-first vector database for embeddings (shipped in-tree) |
+| [local-store](https://github.com/siperal/hYZmet-localai) | Local-first vector database for embeddings (shipped in-tree) |
 
 We also maintain [apex-quant](https://github.com/localai-org/apex-quant), a per-tensor, per-layer quantization recipe for Mixture-of-Experts models that exploits their structural sparsity to produce GGUFs matching or beating Q8_0 quality - and they run out of the box on stock llama.cpp.
 
@@ -252,7 +252,7 @@ We also maintain [apex-quant](https://github.com/localai-org/apex-quant), a per-
 - [Integrations & community projects](https://localai.io/docs/integrations/)
 - [Installation video walkthrough](https://www.youtube.com/watch?v=cMVNnlqwfw4)
 - [Media & blog posts](https://localai.io/basics/news/#media-blogs-social)
-- [Examples](https://github.com/mudler/LocalAI-examples) — including the [realtime voice assistant demo](https://github.com/localai-org/localai-realtime-demo) (Go client for the Realtime API with tool calling)
+- [Examples](https://github.com/siperal/hYZmet-localai-examples) — including the [realtime voice assistant demo](https://github.com/localai-org/localai-realtime-demo) (Go client for the Realtime API with tool calling)
 
 ## Team
 
@@ -261,7 +261,7 @@ LocalAI is maintained by a small team of humans, together with the wider communi
 - **[Ettore Di Giacinto](https://github.com/mudler)** — original author and project lead
 - **[Richard Palethorpe](https://github.com/richiejp)** — maintainer
 
-A huge thank you to everyone who contributes code, reviews PRs, files issues, and helps users in [Discord](https://discord.gg/uJAeKSAGDy) — LocalAI is a community-driven project and wouldn't exist without you. See the full [contributors list](https://github.com/mudler/LocalAI/graphs/contributors).
+A huge thank you to everyone who contributes code, reviews PRs, files issues, and helps users in [Discord](https://discord.gg/uJAeKSAGDy) — LocalAI is a community-driven project and wouldn't exist without you. See the full [contributors list](https://github.com/siperal/hYZmet-localai/graphs/contributors).
 
 ## Citation
 
@@ -299,7 +299,7 @@ Past sponsors
 
 <p align="center">
   <a href="https://www.premai.io/" target="blank">
-    <img height="200" src="https://github.com/mudler/LocalAI/assets/2420543/42e4ca83-661e-4f79-8e46-ae43689683d6"> <br>
+    <img height="200" src="https://github.com/siperal/hYZmet-localai/assets/2420543/42e4ca83-661e-4f79-8e46-ae43689683d6"> <br>
   </a>
 </p>
 

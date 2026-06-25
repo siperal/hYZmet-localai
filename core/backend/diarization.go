@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/schema"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/schema"
 
-	grpcPkg "github.com/mudler/LocalAI/pkg/grpc"
-	"github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/model"
+	grpcPkg "github.com/siperal/hYZmet-localai/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // DiarizationRequest carries the diarization-specific knobs the HTTP

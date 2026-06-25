@@ -7,9 +7,9 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/services/messaging"
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
 	"github.com/mudler/xlog"
 )
 

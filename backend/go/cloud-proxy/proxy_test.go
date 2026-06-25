@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	grpc "github.com/mudler/LocalAI/pkg/grpc"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	grpc "github.com/siperal/hYZmet-localai/pkg/grpc"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 
 	. "github.com/onsi/gomega"
 )

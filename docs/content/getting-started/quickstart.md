@@ -133,4 +133,4 @@ There is much more to explore! LocalAI supports video generation, voice cloning,
 - [Model gallery](https://models.localai.io)
 - [Run models manually]({{% relref "getting-started/models" %}})
 - [Build from source]({{% relref "installation/build" %}})
-- [Examples](https://github.com/mudler/LocalAI/tree/master/examples#examples)
+- [Examples](https://github.com/siperal/hYZmet-localai/tree/master/examples#examples)

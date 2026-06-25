@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
-	"github.com/mudler/LocalAI/core/p2p"
-	"github.com/mudler/LocalAI/pkg/signals"
-	"github.com/mudler/LocalAI/pkg/system"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
+	"github.com/siperal/hYZmet-localai/core/p2p"
+	"github.com/siperal/hYZmet-localai/pkg/signals"
+	"github.com/siperal/hYZmet-localai/pkg/system"
 	"github.com/mudler/xlog"
 	"github.com/phayes/freeport"
 )

@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/mudler/LocalAI/pkg/oci/cosignverify"
+	"github.com/siperal/hYZmet-localai/pkg/oci/cosignverify"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

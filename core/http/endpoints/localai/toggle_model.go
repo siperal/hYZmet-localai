@@ -6,9 +6,9 @@ import (
 	"net/url"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/modeladmin"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/modeladmin"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 // ToggleModelEndpoint handles enabling or disabling a model from being loaded on demand.

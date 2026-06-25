@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	. "github.com/mudler/LocalAI/pkg/downloader"
+	. "github.com/siperal/hYZmet-localai/pkg/downloader"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
 	"github.com/mudler/xlog"
 )
 

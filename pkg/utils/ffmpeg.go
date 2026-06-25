@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	laudio "github.com/mudler/LocalAI/pkg/audio"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
 
 	"github.com/go-audio/wav"
 )

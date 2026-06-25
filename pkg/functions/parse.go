@@ -8,8 +8,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/functions/grammars"
-	"github.com/mudler/LocalAI/pkg/utils"
+	"github.com/siperal/hYZmet-localai/pkg/functions/grammars"
+	"github.com/siperal/hYZmet-localai/pkg/utils"
 	"github.com/mudler/xlog"
 )
 

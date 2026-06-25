@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/application"
-	skillsManager "github.com/mudler/LocalAI/core/services/skills"
+	"github.com/siperal/hYZmet-localai/core/application"
+	skillsManager "github.com/siperal/hYZmet-localai/core/services/skills"
 	skilldomain "github.com/mudler/skillserver/pkg/domain"
 )
 

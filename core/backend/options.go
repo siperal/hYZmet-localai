@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/trace"
-	pb "github.com/mudler/LocalAI/pkg/grpc/proto"
-	"github.com/mudler/LocalAI/pkg/downloader"
-	"github.com/mudler/LocalAI/pkg/model"
-	"github.com/mudler/LocalAI/pkg/vram"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/trace"
+	pb "github.com/siperal/hYZmet-localai/pkg/grpc/proto"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/model"
+	"github.com/siperal/hYZmet-localai/pkg/vram"
 	"github.com/mudler/xlog"
 )
 
@@ -230,7 +230,7 @@ func grpcModelOpts(c config.ModelConfig, modelPath string) *pb.ModelOptions {
 	}
 
 	// Intel SYCL backend has issues with mmap enabled
-	// See: https://github.com/mudler/LocalAI/issues/9012
+	// See: https://github.com/siperal/hYZmet-localai/issues/9012
 	// Automatically disable mmap for Intel SYCL backends
 	if c.Backend != "" {
 		if strings.Contains(strings.ToLower(c.Backend), "intel") || strings.Contains(strings.ToLower(c.Backend), "sycl") {

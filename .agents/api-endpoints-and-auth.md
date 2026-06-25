@@ -157,7 +157,7 @@ If your feature gates standard API endpoints (like `/v1/...`), add entries to `R
 ## Accessing the authenticated user in handlers
 
 ```go
-import "github.com/mudler/LocalAI/core/http/auth"
+import "github.com/siperal/hYZmet-localai/core/http/auth"
 
 func MyHandler(c echo.Context) error {
     // Get the user (nil when auth is disabled or unauthenticated)

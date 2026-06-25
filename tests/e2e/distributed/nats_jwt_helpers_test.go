@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 	"github.com/nats-io/jwt/v2"
 	"github.com/nats-io/nkeys"
 

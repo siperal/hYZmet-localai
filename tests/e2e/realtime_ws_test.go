@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	laudio "github.com/mudler/LocalAI/pkg/audio"
-	"github.com/mudler/LocalAI/pkg/sound"
+	laudio "github.com/siperal/hYZmet-localai/pkg/audio"
+	"github.com/siperal/hYZmet-localai/pkg/sound"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

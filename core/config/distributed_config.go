@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mudler/LocalAI/core/services/messaging"
-	"github.com/mudler/LocalAI/pkg/natsauth"
+	"github.com/siperal/hYZmet-localai/core/services/messaging"
+	"github.com/siperal/hYZmet-localai/pkg/natsauth"
 	"github.com/mudler/xlog"
 )
 

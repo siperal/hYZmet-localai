@@ -1,8 +1,8 @@
 package oci_test
 
 import (
-	"github.com/mudler/LocalAI/internal"
-	. "github.com/mudler/LocalAI/pkg/oci"
+	"github.com/siperal/hYZmet-localai/internal"
+	. "github.com/siperal/hYZmet-localai/pkg/oci"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

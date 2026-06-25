@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/http/auth"
-	httpMiddleware "github.com/mudler/LocalAI/core/http/middleware"
-	"github.com/mudler/LocalAI/core/services/routing/billing"
+	"github.com/siperal/hYZmet-localai/core/http/auth"
+	httpMiddleware "github.com/siperal/hYZmet-localai/core/http/middleware"
+	"github.com/siperal/hYZmet-localai/core/services/routing/billing"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

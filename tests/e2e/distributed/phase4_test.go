@@ -1,7 +1,7 @@
 package distributed_test
 
 import (
-	"github.com/mudler/LocalAI/core/services/distributed"
+	"github.com/siperal/hYZmet-localai/core/services/distributed"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

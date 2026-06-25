@@ -3,7 +3,7 @@ package openai
 import (
 	"context"
 
-	"github.com/mudler/LocalAI/core/http/endpoints/openai/types"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai/types"
 )
 
 // defaultSoundDetectionTopK is the number of scored tags requested per

@@ -12,7 +12,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/mudler/LocalAI/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/gallery"
 )
 
 // connectInMemory wires an MCP server (built via NewServer) to a client over

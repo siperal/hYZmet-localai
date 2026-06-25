@@ -3,11 +3,11 @@ package localaitools
 import (
 	"context"
 
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/gallery"
-	"github.com/mudler/LocalAI/core/schema"
-	"github.com/mudler/LocalAI/core/services/modeladmin"
-	"github.com/mudler/LocalAI/pkg/vram"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/gallery"
+	"github.com/siperal/hYZmet-localai/core/schema"
+	"github.com/siperal/hYZmet-localai/core/services/modeladmin"
+	"github.com/siperal/hYZmet-localai/pkg/vram"
 )
 
 // LocalAIClient is the surface tools depend on. It has two implementations:

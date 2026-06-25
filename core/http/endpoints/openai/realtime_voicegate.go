@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/mudler/LocalAI/core/backend"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/http/endpoints/openai/types"
-	"github.com/mudler/LocalAI/core/services/voicerecognition"
-	"github.com/mudler/LocalAI/pkg/model"
+	"github.com/siperal/hYZmet-localai/core/backend"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/http/endpoints/openai/types"
+	"github.com/siperal/hYZmet-localai/core/services/voicerecognition"
+	"github.com/siperal/hYZmet-localai/pkg/model"
 )
 
 type namedEmbedding struct {

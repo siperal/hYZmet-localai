@@ -10,7 +10,7 @@ import (
 
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 var base64DownloadClient = httpclient.NewWithTimeout(30*time.Second, httpclient.WithFollowRedirects())

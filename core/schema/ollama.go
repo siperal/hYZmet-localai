@@ -23,7 +23,7 @@ type OllamaOptions struct {
 // UnmarshalJSON accepts integer parameters encoded as either JSON ints
 // (`8192`) or JSON floats (`8192.0`). Some clients - notably Home Assistant's
 // Ollama integration - serialize ints as floats, which stdlib json refuses
-// to decode into int fields. See https://github.com/mudler/LocalAI/issues/9837.
+// to decode into int fields. See https://github.com/siperal/hYZmet-localai/issues/9837.
 func (o *OllamaOptions) UnmarshalJSON(data []byte) error {
 	type aux struct {
 		Temperature   *float64     `json:"temperature,omitempty"`

@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	chatcli "github.com/mudler/LocalAI/core/cli/chat"
-	cliContext "github.com/mudler/LocalAI/core/cli/context"
+	chatcli "github.com/siperal/hYZmet-localai/core/cli/chat"
+	cliContext "github.com/siperal/hYZmet-localai/core/cli/context"
 )
 
 type ChatCMD struct {

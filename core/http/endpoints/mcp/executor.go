@@ -4,9 +4,9 @@ import (
 	"context"
 	"slices"
 
-	"github.com/mudler/LocalAI/core/config"
-	mcpRemote "github.com/mudler/LocalAI/core/services/mcp"
-	"github.com/mudler/LocalAI/pkg/functions"
+	"github.com/siperal/hYZmet-localai/core/config"
+	mcpRemote "github.com/siperal/hYZmet-localai/core/services/mcp"
+	"github.com/siperal/hYZmet-localai/pkg/functions"
 	"github.com/mudler/xlog"
 )
 

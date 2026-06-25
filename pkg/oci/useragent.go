@@ -3,7 +3,7 @@ package oci
 import (
 	"fmt"
 
-	"github.com/mudler/LocalAI/internal"
+	"github.com/siperal/hYZmet-localai/internal"
 )
 
 // UserAgent returns the User-Agent string LocalAI sends on outbound registry

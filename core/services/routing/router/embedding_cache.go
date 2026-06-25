@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mudler/LocalAI/core/backend"
+	"github.com/siperal/hYZmet-localai/core/backend"
 	"github.com/mudler/xlog"
 )
 

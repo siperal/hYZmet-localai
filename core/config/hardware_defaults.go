@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mudler/LocalAI/pkg/xsysinfo"
+	"github.com/siperal/hYZmet-localai/pkg/xsysinfo"
 	"github.com/mudler/xlog"
 )
 

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/mudler/LocalAI/core/config"
-	"github.com/mudler/LocalAI/core/services/routing/admission"
-	"github.com/mudler/LocalAI/core/services/routing/pii"
+	"github.com/siperal/hYZmet-localai/core/config"
+	"github.com/siperal/hYZmet-localai/core/services/routing/admission"
+	"github.com/siperal/hYZmet-localai/core/services/routing/pii"
 )
 
 // AdmissionControl runs after RouteModel so the limit applies to the

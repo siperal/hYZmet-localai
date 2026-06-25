@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	gguf "github.com/gpustack/gguf-parser-go"
-	"github.com/mudler/LocalAI/pkg/downloader"
+	"github.com/siperal/hYZmet-localai/pkg/downloader"
 )
 
 type defaultGGUFReader struct{}
@@ -18,7 +18,7 @@ func (defaultGGUFReader) ReadMetadata(ctx context.Context, uri string) (*GGUFMet
 		// Only architecture scalars are read below, never the tokenizer vocab
 		// arrays, so skip them and memory-map the header to avoid a syscall
 		// storm on slow storage. Same rationale as the startup guessing path in
-		// core/config/hooks_llamacpp.go (https://github.com/mudler/LocalAI/issues/9790).
+		// core/config/hooks_llamacpp.go (https://github.com/siperal/hYZmet-localai/issues/9790).
 		f, err := gguf.ParseGGUFFile(urlStr, gguf.UseMMap(), gguf.SkipLargeMetadata())
 		if err != nil {
 			return nil, err

@@ -15,7 +15,7 @@ import (
 	"github.com/mudler/cogito"
 	"github.com/mudler/xlog"
 
-	"github.com/mudler/LocalAI/pkg/httpclient"
+	"github.com/siperal/hYZmet-localai/pkg/httpclient"
 )
 
 // Metadata keys populated by localrecall for every stored chunk. The original

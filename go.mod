@@ -1,4 +1,4 @@
-module github.com/mudler/LocalAI
+module github.com/siperal/hYZmet-localai
 
 go 1.26.0
 

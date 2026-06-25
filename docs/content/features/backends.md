@@ -12,7 +12,7 @@ LocalAI supports a variety of backends that can be used to run different types o
 
 LocalAI ships **60+ backends** covering text generation, speech-to-text, text-to-speech, music and sound generation, image and video generation, vision and object detection, audio processing, reranking, fine-tuning, and more. Each one is published as an on-demand OCI image with the appropriate acceleration variants (CPU, CUDA 12/13, ROCm, Intel SYCL, Vulkan, Metal, Jetson L4T).
 
-For the complete list of backends, the model families they support, and their acceleration targets, see the [Backend & Model Compatibility Table]({{%relref "reference/compatibility-table" %}}). The authoritative source is [`backend/index.yaml`](https://github.com/mudler/LocalAI/blob/master/backend/index.yaml), and the same catalog is browsable in the web UI under the **Backends** section.
+For the complete list of backends, the model families they support, and their acceleration targets, see the [Backend & Model Compatibility Table]({{%relref "reference/compatibility-table" %}}). The authoritative source is [`backend/index.yaml`](https://github.com/siperal/hYZmet-localai/blob/master/backend/index.yaml), and the same catalog is browsable in the web UI under the **Backends** section.
 
 ## Managing Backends in the UI
 
@@ -97,11 +97,11 @@ Your backend container should:
 
 ### Getting started
 
-For getting started, see the available backends in LocalAI here: https://github.com/mudler/LocalAI/tree/master/backend . 
+For getting started, see the available backends in LocalAI here: https://github.com/siperal/hYZmet-localai/tree/master/backend . 
 
-- For Python based backends there is a template that can be used as starting point: https://github.com/mudler/LocalAI/tree/master/backend/python/common/template . 
-- For Golang based backends, you can see the `piper` backend as an example: https://github.com/mudler/LocalAI/tree/master/backend/go/piper
-- For C++ based backends, you can see the `llama-cpp` backend as an example: https://github.com/mudler/LocalAI/tree/master/backend/cpp/llama-cpp
+- For Python based backends there is a template that can be used as starting point: https://github.com/siperal/hYZmet-localai/tree/master/backend/python/common/template . 
+- For Golang based backends, you can see the `piper` backend as an example: https://github.com/siperal/hYZmet-localai/tree/master/backend/go/piper
+- For C++ based backends, you can see the `llama-cpp` backend as an example: https://github.com/siperal/hYZmet-localai/tree/master/backend/cpp/llama-cpp
 
 ### Publishing Your Backend
 
