@@ -36,7 +36,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
 const LOCALES_DIR = join(ROOT, 'public', 'locales')
 const SOURCE_LOCALE = 'en'
-const TARGET_LOCALES = ['it', 'es', 'de', 'zh-CN', 'id']
+const TARGET_LOCALES = ['tr', 'it', 'es', 'de', 'zh-CN', 'id']
 
 const LANGUAGE_NAMES = {
   it: 'Italian',

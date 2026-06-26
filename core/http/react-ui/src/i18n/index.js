@@ -5,6 +5,7 @@ import { initReactI18next } from 'react-i18next'
 import { apiUrl } from '../utils/basePath'
 
 export const SUPPORTED_LANGUAGES = [
+  { code: 'tr', name: 'Türkçe', flag: 'TR'},
   { code: 'en', name: 'English', flag: 'EN' },
   { code: 'it', name: 'Italiano', flag: 'IT' },
   { code: 'es', name: 'Español', flag: 'ES' },
@@ -39,7 +40,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: 'tr',
     supportedLngs: SUPPORTED_LANGUAGES.map((l) => l.code),
     ns: ['common', 'nav', 'errors'],
     defaultNS: 'common',
