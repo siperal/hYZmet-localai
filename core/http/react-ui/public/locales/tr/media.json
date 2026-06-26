@@ -1,0 +1,156 @@
+{
+  "studio": {
+    "tabs": {
+      "images": "Görüntüler",
+      "video": "Video",
+      "tts": "Metinden Ses",
+      "sound": "Ses",
+      "transform": "Dönüştür"
+    }
+  },
+  "image": {
+    "title": "Görüntü Üretimi",
+    "labels": {
+      "model": "Model",
+      "prompt": "İstem",
+      "promptPlaceholder": "Üretmek istediğiniz görüntüyü açıklayın...",
+      "negativePrompt": "Negatif İstem",
+      "negativePromptPlaceholder": "Kaçınılacak şeyler...",
+      "size": "Boyut",
+      "count": "Adet (1-4)",
+      "advanced": "Gelişmiş Ayarlar",
+      "imageInputs": "Görüntü Girdileri",
+      "steps": "Adımlar",
+      "stepsPlaceholder": "20",
+      "seed": "Tohum",
+      "seedPlaceholder": "Rastgele",
+      "sourceImage": "Kaynak Görüntü (img2img)",
+      "refImages": "Referans Görüntüler",
+      "refImagesAdded_one": "{{count}} görüntü eklendi",
+      "refImagesAdded_other": "{{count}} görüntü eklendi"
+    },
+    "actions": {
+      "view": "Görüntüle",
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    },
+    "empty": "Oluşturulan görüntüler burada görünecek",
+    "toasts": {
+      "noPrompt": "Lütfen bir istem girin",
+      "noModel": "Lütfen bir model seçin",
+      "noResults": "Görüntü oluşturulmadı"
+    }
+  },
+  "video": {
+    "title": "Video Üretimi",
+    "labels": {
+      "model": "Model",
+      "prompt": "İstem",
+      "promptPlaceholder": "Üretmek istediğiniz videoyu açıklayın...",
+      "duration": "Süre (saniye)",
+      "fps": "FPS",
+      "size": "Boyut",
+      "advanced": "Gelişmiş Ayarlar",
+      "seed": "Tohum",
+      "seedPlaceholder": "Rastgele"
+    },
+    "actions": {
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    },
+    "empty": "Oluşturulan video burada görünecek",
+    "toasts": {
+      "noPrompt": "Lütfen bir istem girin",
+      "noModel": "Lütfen bir model seçin",
+      "noResults": "Video oluşturulmadı"
+    }
+  },
+  "tts": {
+    "title": "Metinden Konuşmaya",
+    "labels": {
+      "model": "Model",
+      "voice": "Ses",
+      "voicePlaceholder": "İsteğe bağlı ses kimliği",
+      "input": "Metin",
+      "inputPlaceholder": "Sentezlenecek metni girin..."
+    },
+    "actions": {
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    },
+    "empty": "Oluşturulan ses burada görünecek",
+    "toasts": {
+      "noText": "Lütfen metin girin",
+      "noModel": "Lütfen bir model seçin",
+      "generateFailed": "Oluşturma başarısız"
+    }
+  },
+  "sound": {
+    "title": "Ses Üretimi",
+    "labels": {
+      "model": "Model",
+      "prompt": "İstem",
+      "promptPlaceholder": "Üretmek istediğiniz sesi açıklayın...",
+      "duration": "Süre (saniye)",
+      "language": "Dil",
+      "vocalLanguage": "Vokal dili",
+      "lyrics": "Sözler (isteğe bağlı)",
+      "lyricsPlaceholder": "Vokal üretimi için sözler",
+      "advanced": "Gelişmiş Ayarlar",
+      "seed": "Tohum",
+      "seedPlaceholder": "Rastgele"
+    },
+    "actions": {
+      "generate": "Oluştur",
+      "generating": "Oluşturuluyor..."
+    },
+    "empty": "Oluşturulan ses burada görünecek",
+    "toasts": {
+      "noPrompt": "Lütfen bir istem girin",
+      "noModel": "Lütfen bir model seçin",
+      "generateFailed": "Oluşturma başarısız"
+    }
+  },
+  "talk": {
+    "title": "Konuş",
+    "subtitle": "Gerçek zamanlı sesli konuşma",
+    "actions": {
+      "start": "Oturumu başlat",
+      "stop": "Oturumu bitir",
+      "connecting": "Bağlanıyor...",
+      "muted": "Sessize alındı",
+      "mute": "Sesi kapat",
+      "unmute": "Sesi aç"
+    },
+    "labels": {
+      "model": "Model",
+      "voice": "Ses",
+      "voicePlaceholder": "alloy",
+      "language": "Dil",
+      "languagePlaceholder": "tr",
+      "instructions": "Talimatlar",
+      "instructionsPlaceholder": "Asistanın kişiliğini belirleyin..."
+    },
+    "status": {
+      "idle": "Beklemede",
+      "connecting": "Bağlanıyor...",
+      "listening": "Dinliyor...",
+      "speaking": "Konuşuyor...",
+      "ended": "Oturum sona erdi"
+    },
+    "toasts": {
+      "noModel": "Önce bir model seçin",
+      "connectFailed": "Bağlanılamadı: {{message}}"
+    }
+  },
+  "history": {
+    "title": "Geçmiş",
+    "empty": "Henüz geçmiş yok",
+    "deleteEntry": "Girişi sil",
+    "clear": "Geçmişi temizle",
+    "clearTitle": "Tüm geçmişi temizle",
+    "clearMessage": "Tüm geçmiş girişleri kaldırılsın mı? Bu işlem geri alınamaz.",
+    "clearConfirm": "Temizle",
+    "cleared": "Geçmiş temizlendi"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "manage": {
+    "title": "Sistem",
+    "subtitle": "Kurulu modelleri ve arka uçları yönetin"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "LocalAI çalışma zamanı ayarlarını yapılandırın",
+    "saved": "Ayarlar başarıyla kaydedildi",
+    "saveFailed": "Kaydetme başarısız: {{message}}",
+    "loadFailed": "Ayarlar yüklenemedi: {{message}}",
+    "sections": {
+      "branding": "Marka",
+      "watchdog": "İzleme",
+      "memory": "Bellek",
+      "backends": "Arka Uçlar",
+      "performance": "Performans",
+      "tracing": "İzleme Kaydı",
+      "api": "API & CORS",
+      "p2p": "P2P",
+      "galleries": "Galeriler",
+      "apikeys": "API Anahtarları",
+      "agents": "Ajan İşleri",
+      "agentpool": "Ajan Havuzu",
+      "assistant": "LocalAI Asistanı",
+      "responses": "Yanıtlar"
+    }
+  },
+  "backends": {
+    "title": "Arka Uç Yönetimi",
+    "subtitle": "Modellerinizi çalıştırmak için AI arka uçlarını keşfedin ve kurun"
+  },
+  "backendLogs": {
+    "title": "Arka Uç Günlükleri",
+    "subtitle": "Çalışan arka uçların günlüklerini görüntüleyin",
+    "empty": "Günlük mevcut değil"
+  },
+  "traces": {
+    "title": "İzler",
+    "subtitle": "Kaydedilen API isteklerini, yanıtlarını ve arka uç işlemlerini görüntüleyin"
+  },
+  "nodes": {
+    "title": "Dağıtık Düğümler",
+    "subtitle": "Arka uç ve ajan çalışan düğümlerini yönetin"
+  },
+  "scheduling": {
+    "title": "Zamanlama",
+    "subtitle": "Küme genelinde model yerleşimi ve çoğaltma kuralları"
+  },
+  "p2p": {
+    "title": "Dağıtık AI Bilişimi",
+    "subtitle": "AI iş yüklerinizi eşler arası dağıtımla birden fazla cihaza ölçeklendirin"
+  },
+  "users": {
+    "title": "Kullanıcılar",
+    "subtitle": "Kayıtlı kullanıcıları, rolleri ve davetleri yönetin"
+  },
+  "usage": {
+    "title": "Kullanım",
+    "subtitle": "API token kullanım istatistikleri",
+    "sources": {
+      "tab": "Kaynaklar",
+      "mixTitle": "Kaynak karışımı",
+      "ribbonAria": "%{{apikey}} API anahtarları, %{{web}} Web Arayüzü, %{{legacy}} Eski",
+      "topSources": "Zaman içinde en çok kullanılan kaynaklar",
+      "searchPlaceholder": "Ada veya öneke göre ara",
+      "sortBy": "Sırala",
+      "sortTokens": "Token",
+      "sortRequests": "İstekler",
+      "sortLastUsed": "Son kullanım",
+      "sortName": "Ad",
+      "sortUser": "Kullanıcı",
+      "webUI": "Web Arayüzü",
+      "legacy": "Eski",
+      "revoked": "iptal edildi",
+      "filteredTo": "Filtre: {{name}}",
+      "clearFilter": "Filtreyi temizle",
+      "other": "Diğer ({{count}})",
+      "noTrafficShort": "Bu dönemde istek yok.",
+      "noKeysYet": "İstekler geldikçe burada ayrıntılı göreceksiniz.",
+      "createKey": "İlk API anahtarınızı oluşturun",
+      "truncatedWarning": "İlk 200 anahtar gösteriliyor. Daraltmak için filtre uygulayın."
+    }
+  },
+  "explorer": {
+    "title": "Gezgin",
+    "subtitle": "Dosyalara ve yapılandırmaya göz atın"
+  }
+}

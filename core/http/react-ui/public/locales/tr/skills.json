@@ -1,0 +1,79 @@
+{
+  "title": "Beceriler",
+  "subtitle": "Ajan becerilerini yönetin (yeniden kullanılabilir talimatlar ve kaynaklar)",
+  "unavailable": {
+    "subtitle": "Beceri hizmeti kullanılamıyor veya dizin yeniden oluşturuluyor. Bir süre sonra tekrar deneyin.",
+    "retry": "Tekrar Dene"
+  },
+  "actions": {
+    "newSkill": "Yeni beceri",
+    "createSkill": "Beceri oluştur",
+    "import": "İçe Aktar",
+    "importing": "İçe aktarılıyor...",
+    "gitRepos": "Git Depoları",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "export": "Dışa Aktar",
+    "sync": "Eşitle",
+    "addRepo": "Depo ekle",
+    "adding": "Ekleniyor...",
+    "remove": "Kaldır",
+    "enable": "Etkinleştir",
+    "disable": "Devre Dışı Bırak"
+  },
+  "search": {
+    "placeholder": "Beceri ara..."
+  },
+  "git": {
+    "title": "Git depoları",
+    "description": "Beceri almak için Git depoları ekleyin. Beceriler eşitlemeden sonra listede görünecek.",
+    "urlPlaceholder": "https://github.com/kullanici/repo veya git@github.com:kullanici/repo.git",
+    "noRepos": "Yapılandırılmış Git deposu yok. Yukarıdan bir tane ekleyin.",
+    "disabled": "Devre Dışı",
+    "removeRepo": "Depoyu kaldır"
+  },
+  "card": {
+    "noDescription": "Açıklama yok",
+    "readOnly": "Salt okunur",
+    "editTitle": "Beceriyi düzenle",
+    "deleteTitle": "Beceriyi sil",
+    "exportTitle": ".tar.gz olarak dışa aktar"
+  },
+  "empty": {
+    "title": "Beceri bulunamadı",
+    "text": "Başlamak için bir beceri oluşturun veya içe aktarın.",
+    "noPersonal": "Henüz beceri eklemediniz."
+  },
+  "sections": {
+    "yourSkills": "Becerileriniz",
+    "otherUsersSkills": "Diğer Kullanıcıların Becerileri"
+  },
+  "deleteDialog": {
+    "title": "Beceriyi Sil",
+    "message": "\"{{name}}\" becerisi silinsin mi? Bu işlem geri alınamaz.",
+    "confirm": "Sil"
+  },
+  "removeRepoDialog": {
+    "title": "Git Deposunu Kaldır",
+    "message": "Bu Git deposu kaldırılsın mı? Buradan gelen beceriler artık kullanılamayacak.",
+    "confirm": "Kaldır"
+  },
+  "toasts": {
+    "loadFailed": "Beceriler yüklenemedi",
+    "deleted": "\"{{name}}\" becerisi silindi",
+    "deleteFailed": "Beceri silinemedi",
+    "exported": "\"{{name}}\" becerisi dışa aktarıldı",
+    "exportFailed": "Dışa aktarma başarısız",
+    "imported": "Beceri \"{{file}}\" dosyasından içe aktarıldı",
+    "importFailed": "İçe aktarma başarısız",
+    "loadReposFailed": "Git depoları yüklenemedi",
+    "repoAdded": "Git deposu eklendi ve eşitleniyor",
+    "addRepoFailed": "Depo eklenemedi",
+    "synced": "Depo eşitlendi",
+    "syncFailed": "Eşitleme başarısız",
+    "toggled": "Depo değiştirildi",
+    "toggleFailed": "Değiştirme başarısız",
+    "removed": "Depo kaldırıldı",
+    "removeFailed": "Kaldırma başarısız"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Ajanlar",
+  "subtitle": "Otonom AI ajanlarını yönetin",
+  "actions": {
+    "agentHub": "Ajan Merkezi",
+    "import": "İçe Aktar",
+    "createAgent": "Ajan Oluştur",
+    "edit": "Düzenle",
+    "chat": "Sohbet",
+    "export": "Dışa Aktar",
+    "delete": "Sil",
+    "pause": "Duraklat",
+    "resume": "Devam Et"
+  },
+  "table": {
+    "name": "Ad",
+    "status": "Durum",
+    "events": "Olaylar",
+    "actions": "İşlemler",
+    "eventsTooltip": "{{count}} olay - Görüntülemek için tıklayın"
+  },
+  "search": {
+    "placeholder": "Ajan ara...",
+    "summary_one": "{{total}} ajandan {{shown}} tanesi",
+    "summary_other": "{{total}} ajandan {{shown}} tanesi"
+  },
+  "empty": {
+    "noConfigured": "Yapılandırılmış ajan yok",
+    "noConfiguredText": "Otonom AI iş akışlarına başlamak için bir ajan oluşturun.",
+    "browseHub": "Nereden başlayacağınızı bilmiyor musunuz? Hazır ajan yapılandırmaları bulmak için <1>Ajan Merkezi</1>'ne göz atın.",
+    "noMatching": "Eşleşen ajan yok",
+    "noMatchingText": "\"{{query}}\" ile eşleşen ajan bulunamadı"
+  },
+  "sections": {
+    "yourAgents": "Ajanlarınız",
+    "otherUsersAgents": "Diğer Kullanıcıların Ajanları"
+  },
+  "deleteDialog": {
+    "title": "Ajanı Sil",
+    "message": "\"{{name}}\" ajanı silinsin mi? Bu işlem geri alınamaz.",
+    "confirm": "Sil"
+  },
+  "toasts": {
+    "loadFailed": "Ajanlar yüklenemedi: {{message}}",
+    "deleted": "\"{{name}}\" ajanı silindi",
+    "deleteFailed": "Ajan silinemedi: {{message}}",
+    "paused": "\"{{name}}\" ajanı duraklatıldı",
+    "resumed": "\"{{name}}\" ajanı devam ettirildi",
+    "pauseFailed": "Ajan duraklatılamadı: {{message}}",
+    "resumeFailed": "Ajan devam ettirilemedi: {{message}}",
+    "exported": "\"{{name}}\" ajanı dışa aktarıldı",
+    "exportFailed": "Ajan dışa aktarılamadı: {{message}}",
+    "parseFailed": "Ajan dosyası ayrıştırılamadı: {{message}}"
+  }
+}

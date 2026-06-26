@@ -1,0 +1,107 @@
+{
+  "cluster": {
+    "vram": "Küme VRAM",
+    "ram": "Küme RAM",
+    "nodesOnline": "{{healthy}}/{{total}} düğüm çevrimiçi"
+  },
+  "resourceGpu": "GPU",
+  "resourceRam": "RAM",
+  "greeting": {
+    "morning": "Günaydın",
+    "afternoon": "İyi öğlenler",
+    "evening": "İyi akşamlar",
+    "night": "Geç saatte çalışıyorsunuz"
+  },
+  "statusLine": {
+    "modelsLoaded_one": "{{count}} model yüklendi",
+    "modelsLoaded_other": "{{count}} model yüklendi",
+    "noModelsLoaded": "Yüklü model yok",
+    "nodes_one": "{{count}} düğüm",
+    "nodes_other": "{{count}} düğüm"
+  },
+  "assistant": {
+    "title": "Sohbet ederek LocalAI'yı yönetin",
+    "description": "LocalAI ile konuşarak model kurun, arka uç değiştirin, yapılandırmaları düzenleyin ve durumu kontrol edin.",
+    "open": "Asistanı aç",
+    "tooltip": "Sohbet ederek LocalAI'yı yönetin"
+  },
+  "input": {
+    "placeholder": "Mesaj...",
+    "attachImage": "Resim ekle",
+    "attachAudio": "Ses ekle",
+    "attachFile": "Dosya ekle",
+    "enterToSend": "Göndermek için Enter",
+    "selectModelFirst": "Önce bir model seçin",
+    "sendMessage": "Mesaj gönder",
+    "selectModelToast": "Lütfen önce bir model seçin"
+  },
+  "quickLinks": {
+    "manageByChat": "Sohbetle yönet",
+    "installedModels": "Kurulu Modeller",
+    "browseGallery": "Galeriye Göz At",
+    "importModel": "Model İçe Aktar",
+    "documentation": "Dokümantasyon"
+  },
+  "loadedModels": {
+    "heading": "Aktif modeller",
+    "count_one": "{{count}} model yüklendi",
+    "count_other": "{{count}} model yüklendi",
+    "stop": "Modeli durdur",
+    "stopAll": "Tümünü durdur"
+  },
+  "stopDialog": {
+    "title": "Modeli Durdur",
+    "message": "{{model}} modeli durdurulsun mu?",
+    "confirm": "{{model}} durdur",
+    "stopAllTitle": "Tüm Modelleri Durdur",
+    "stopAllMessage": "Yüklü {{count}} modelin tamamı durdurulsun mu?",
+    "stopAllConfirm": "Tümünü durdur",
+    "stoppedToast": "{{model}} durduruldu",
+    "allStoppedToast": "Tüm modeller durduruldu",
+    "stopFailed": "Durdurulamadı: {{message}}"
+  },
+  "wizard": {
+    "getStarted": "{{name}} ile başlayın",
+    "intro": "Başlamak için ilk modelinizi kurun. Galeriye göz atın veya kendinizinkini içe aktarın.",
+    "steps": {
+      "step1Title": "Model Galerisine Göz Atın",
+      "step1Body": "Özenle seçilmiş koleksiyonumuzdan ihtiyaçlarınıza uygun modeli bulun.",
+      "step2Title": "Model Kurun",
+      "step2Body": "Otomatik olarak indirip yapılandırmak için kur'a tıklayın.",
+      "step3Title": "Sohbet Etmeye Başlayın",
+      "step3Body": "Modelinizle doğrudan tarayıcıdan sohbet edin veya API'yi kullanın."
+    },
+    "browseGallery": "Model Galerisine Göz At",
+    "importModel": "Model İçe Aktar",
+    "docs": "Belgeler",
+    "noModelsTitle": "Mevcut Model Yok",
+    "noModelsBody": "Henüz kurulu model yok. Sohbet etmeye başlayabilmek için yöneticinizden modelleri kurmasını isteyin."
+  },
+  "starters": {
+    "title": "Donanımınız için önerilir",
+    "tier": {
+      "cpu": "Yalnızca CPU",
+      "gpu-small": "GPU",
+      "gpu-mid": "GPU",
+      "gpu-large": "GPU"
+    },
+    "cpuNote": "GPU algılanmadı — bu küçük modeller CPU'da duyarlı kalır.",
+    "gpuNote": "Bağlam için yer bırakarak mevcut VRAM'inize sığacak şekilde seçildi.",
+    "install": "Kur",
+    "installing": "Kuruluyor",
+    "installStarted": "{{model}} kuruluyor…",
+    "installFailed": "Kurulum başarısız: {{message}}"
+  },
+  "connect": {
+    "title": "Tek uç nokta, her API",
+    "subtitle": "LocalAI kendi tam API'sini sunar — görüntü ve video üretimi, derinlik, nesne tespiti, yeniden sıralama, ses, yüz ve ses tanıma, WebRTC ve WebSocket üzerinden gerçek zamanlı ses. Bunun yanı sıra, OpenAI, Anthropic, Ollama veya OpenAI Responses için geliştirilmiş herhangi bir uygulamanın değişiklik yapmadan kullanabileceği bir uyumluluk katmanı sunar.",
+    "nativeTitle": "Yerel API",
+    "compatTitle": "Tam uyumluluk",
+    "apiReference": "Tam API referansı",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "browse": "API'ye göz at",
+    "hide": "Uç noktaları gizle",
+    "dismiss": "Kapat"
+  }
+}

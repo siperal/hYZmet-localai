@@ -1,0 +1,112 @@
+{
+  "title": "Model Kur",
+  "subtitle": "Galeriden AI modellerine göz atın ve kurun",
+  "models": "Modeller",
+  "recommended": {
+    "title": "Donanımınız için önerilir",
+    "cpuNote": "GPU algılanmadı — CPU'da duyarlı kalan küçük modeller.",
+    "gpuNote": "Bağlam için yer bırakarak mevcut VRAM'inize sığacak şekilde boyutlandırıldı.",
+    "install": "Kur",
+    "installing": "Kuruluyor",
+    "installStarted": "{{model}} kuruluyor…",
+    "installFailed": "Kurulum başarısız: {{message}}",
+    "dismiss": "Önerileri kapat"
+  },
+  "stats": {
+    "available": "Mevcut",
+    "installed": "Kurulu"
+  },
+  "actions": {
+    "addModel": "Model Ekle",
+    "importModel": "Model İçe Aktar",
+    "install": "Kur",
+    "reinstall": "Yeniden Kur",
+    "delete": "Sil"
+  },
+  "filters": {
+    "all": "Tümü",
+    "llm": "Sohbet",
+    "image": "Görüntü",
+    "video": "Video",
+    "multimodal": "Çok Modlu",
+    "vision": "Görme",
+    "tts": "Metinden Ses",
+    "stt": "Sesten Metin",
+    "diarization": "Diyarizasyon",
+    "soundClassification": "Ses Etiketleme",
+    "soundGen": "Ses",
+    "audioTransform": "Ses Efektleri",
+    "realtimeAudio": "Gerçek Zamanlı Ses",
+    "embedding": "Gömüler",
+    "rerank": "Yeniden Sırala",
+    "detection": "Tespit",
+    "vad": "VAD",
+    "ner": "NER",
+    "fitsGpu": "GPU'ya Sığar",
+    "allBackends": "Tüm Arka Uçlar",
+    "searchBackends": "Arka uç ara..."
+  },
+  "search": {
+    "placeholder": "Model ara...",
+    "clearFilters": "Filtreleri temizle"
+  },
+  "table": {
+    "modelName": "Model Adı",
+    "description": "Açıklama",
+    "backend": "Arka Uç",
+    "sizeVram": "Boyut / VRAM",
+    "status": "Durum",
+    "actions": "İşlemler",
+    "size": "Boyut: {{size}}",
+    "vram": "VRAM: {{vram}}",
+    "fits": "Sığar",
+    "mayNotFit": "Sığmayabilir",
+    "trustRemoteCode": "Uzak Koda Güven",
+    "installing": "Kuruluyor",
+    "installingPct": "Kuruluyor · %{{percent}}",
+    "installed": "Kurulu",
+    "notInstalled": "Kurulu Değil"
+  },
+  "detail": {
+    "description": "Açıklama",
+    "gallery": "Galeri",
+    "backend": "Arka Uç",
+    "size": "Boyut",
+    "vram": "VRAM",
+    "license": "Lisans",
+    "tags": "Etiketler",
+    "links": "Bağlantılar",
+    "warning": "Uyarı",
+    "files": "Dosyalar",
+    "fitsGpu": "GPU'ya Sığar",
+    "mayNotFitGpu": "GPU'ya Sığmayabilir",
+    "requiresTrustRemoteCode": "Uzak Koda Güven Gerektirir",
+    "fileCount_one": "{{count}} dosya",
+    "fileCount_other": "{{count}} dosya",
+    "filename": "Dosya adı",
+    "uri": "URI",
+    "sha256": "SHA256"
+  },
+  "empty": {
+    "title": "Model bulunamadı",
+    "withFilters": "Mevcut arama veya filtrelerle eşleşen model yok.",
+    "noFilters": "Model galerisi boş."
+  },
+  "deleteDialog": {
+    "title": "Modeli Sil",
+    "message": "{{model}} modeli silinsin mi?",
+    "confirm": "{{model}} sil",
+    "deletingToast": "{{model}} siliniyor..."
+  },
+  "errors": {
+    "loadFailed": "Modeller yüklenemedi: {{message}}",
+    "installFailed": "Kurulum başarısız: {{message}}",
+    "deleteFailed": "Silme başarısız: {{message}}"
+  },
+  "selector": {
+    "loading": "Modeller yükleniyor...",
+    "selectModel": "Model seçin...",
+    "searchPlaceholder": "Model ara...",
+    "noModels": "Mevcut model yok"
+  }
+}

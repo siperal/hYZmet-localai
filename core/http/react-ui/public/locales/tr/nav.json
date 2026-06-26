@@ -1,0 +1,70 @@
+{
+  "appName": "LocalAI",
+  "openMenu": "Menüyü aç",
+  "closeMenu": "Menüyü kapat",
+  "primaryNavigation": "Ana gezinme",
+  "switchToLightMode": "Açık moda geç",
+  "switchToDarkMode": "Koyu moda geç",
+  "expandSidebar": "Kenar çubuğunu genişlet",
+  "collapseSidebar": "Kenar çubuğunu daralt",
+  "changeLanguage": "Dili değiştir",
+  "logout": "Çıkış Yap",
+  "accountSettings": "Hesap ayarları",
+  "account": "Hesap",
+  "accountFor": "Hesap: {{name}}",
+  "sections": {
+    "create": "Oluştur",
+    "recognition": "Tanıma",
+    "build": "Geliştir",
+    "operate": "Yönet"
+  },
+  "operate": {
+    "inference": "Çıkarım",
+    "cluster": "Küme",
+    "observability": "Gözlemlenebilirlik",
+    "access": "Erişim",
+    "system": "Sistem"
+  },
+  "items": {
+    "home": "Ana Sayfa",
+    "installModels": "Model Kur",
+    "chat": "Sohbet",
+    "studio": "Stüdyo",
+    "talk": "Konuş",
+    "fineTune": "İnce Ayar",
+    "quantize": "Nicelleştir",
+    "faces": "Yüzler",
+    "voices": "Sesler",
+    "jobs": "İşler",
+    "operate": "Yönetim",
+    "host": "Ana Makine",
+    "audioTransform": "Ses Dönüştürme",
+    "faceRecognition": "Yüz Tanıma",
+    "voiceRecognition": "Ses Tanıma",
+    "agents": "Ajanlar",
+    "skills": "Beceriler",
+    "memory": "Bellek",
+    "mcpJobs": "MCP CI İşleri",
+    "usage": "Kullanım",
+    "users": "Kullanıcılar",
+    "middleware": "Ara Yazılım",
+    "backends": "Arka Uçlar",
+    "traces": "İzler",
+    "nodes": "Düğümler",
+    "scheduling": "Zamanlama",
+    "swarm": "Sürü",
+    "system": "Sistem",
+    "settings": "Ayarlar",
+    "api": "API"
+  },
+  "footer": {
+    "github": "GitHub",
+    "documentation": "Dokümantasyon",
+    "author": "Yazar",
+    "copyright": "© 2023-{{year}} {{author}}"
+  },
+  "console": {
+    "automation": "Otomasyon",
+    "training": "Eğitim"
+  }
+}

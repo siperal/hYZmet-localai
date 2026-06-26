@@ -1,0 +1,43 @@
+{
+  "title": "Bilgi Tabanı",
+  "subtitle": "Ajan RAG için belge koleksiyonlarını yönetin",
+  "newPlaceholder": "Yeni koleksiyon adı...",
+  "actions": {
+    "create": "Oluştur",
+    "creating": "Oluşturuluyor...",
+    "details": "Ayrıntılar",
+    "reset": "Sıfırla",
+    "delete": "Sil",
+    "viewDetails": "Ayrıntıları görüntüle",
+    "resetCollection": "Koleksiyonu sıfırla",
+    "deleteCollection": "Koleksiyonu sil"
+  },
+  "sections": {
+    "yourCollections": "Koleksiyonlarınız",
+    "otherUsersCollections": "Diğer Kullanıcıların Koleksiyonları"
+  },
+  "empty": {
+    "title": "Henüz koleksiyon yok",
+    "text": "Koleksiyonlar, belgeleri ajanların RAG (Geri Alma Destekli Üretim) kullanarak arayabileceği bilgi tabanlarına düzenlemenizi sağlar. Başlamak için yukarıda bir koleksiyon oluşturun.",
+    "noPersonal": "Henüz koleksiyonunuz yok."
+  },
+  "deleteDialog": {
+    "title": "Koleksiyonu Sil",
+    "message": "\"{{name}}\" koleksiyonu silinsin mi? Bu işlem tüm girişleri kaldıracak ve geri alınamaz.",
+    "confirm": "Sil"
+  },
+  "resetDialog": {
+    "title": "Koleksiyonu Sıfırla",
+    "message": "\"{{name}}\" koleksiyonu sıfırlansın mı? Bu işlem tüm girişleri kaldırır ancak koleksiyonu korur.",
+    "confirm": "Sıfırla"
+  },
+  "toasts": {
+    "loadFailed": "Koleksiyonlar yüklenemedi: {{message}}",
+    "created": "\"{{name}}\" koleksiyonu oluşturuldu",
+    "createFailed": "Koleksiyon oluşturulamadı: {{message}}",
+    "deleted": "\"{{name}}\" koleksiyonu silindi",
+    "deleteFailed": "Koleksiyon silinemedi: {{message}}",
+    "reset": "\"{{name}}\" koleksiyonu sıfırlandı",
+    "resetFailed": "Koleksiyon sıfırlanamadı: {{message}}"
+  }
+}

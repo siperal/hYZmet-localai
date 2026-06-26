@@ -1,0 +1,142 @@
+{
+  "title": "Yeni Model İçe Aktar",
+  "subtitle": {
+    "simple": "Bir URI'dan model içe aktarın — otomatik algılama arka ucu seçer.",
+    "powerYaml": "Tam model YAML yapılandırmasını yazın.",
+    "powerPrefs": "Ayrıntılı içe aktarma tercihleri."
+  },
+  "actions": {
+    "import": "Modeli İçe Aktar",
+    "importing": "İçe aktarılıyor...",
+    "create": "Oluştur",
+    "saving": "Kaydediliyor...",
+    "browseHF": "HF'de modellere göz at",
+    "addCustom": "Özel Ekle",
+    "copy": "Kopyala"
+  },
+  "form": {
+    "modelUri": "Model URI",
+    "uriPlaceholder": "huggingface://TheBloke/Llama-2-7B-Chat-GGUF veya https://ornek.com/model.gguf",
+    "uriHint": "İçe aktarmak istediğiniz model dosyasının URI'sini veya yolunu girin",
+    "supportedFormats": "Desteklenen URI Biçimleri",
+    "options": "Seçenekler",
+    "preferences": "Tercihler (İsteğe Bağlı)",
+    "commonPreferences": "Genel Tercihler",
+    "customPreferences": "Özel Tercihler",
+    "customKeyValueHint": "Gelişmiş yapılandırma için özel anahtar-değer çiftleri ekleyin.",
+    "preferenceKey": "{{index}}. satır için tercih anahtarı",
+    "preferenceValue": "{{index}}. satır için tercih değeri",
+    "removePref": "Bu tercihi kaldır",
+    "key": "Anahtar",
+    "value": "Değer",
+    "backend": "Arka Uç",
+    "backendAuto": "Otomatik algıla (URI'ya göre)",
+    "backendLoading": "Arka uçlar yükleniyor…",
+    "backendSearch": "Arka uç ara...",
+    "backendHint": "Belirli bir arka uç zorla. Otomatik algılama için boş bırakın. \"Manuel seçim\" olarak işaretlenenler otomatik algılanamaz — modelin neye ihtiyacı olduğunu biliyorsanız kendiniz seçin.",
+    "backendErrorHint": "Arka uç listesi yüklenemedi — yalnızca otomatik algılama.",
+    "backendNotInstalled": "Bu arka uç henüz kurulu değil. İçe aktarma gönderildiğinde önce indirilecek.",
+    "modelName": "Model Adı",
+    "modelNamePlaceholder": "Dosya adını kullanmak için boş bırakın",
+    "modelNameHint": "Model için özel ad. Boş bırakılırsa dosya adı kullanılır.",
+    "description": "Açıklama",
+    "descriptionPlaceholder": "Varsayılan açıklamayı kullanmak için boş bırakın",
+    "descriptionHint": "Model için özel açıklama.",
+    "quantizations": "Nicemleme",
+    "quantizationsPlaceholder": "q4_k_m,q4_k_s,q3_k_m (virgülle ayrılmış)",
+    "quantizationsHint": "Tercih edilen nicemleme (virgülle ayrılmış). Varsayılan için boş bırakın (q4_k_m).",
+    "mmprojQuantizations": "MMProj Nicemleme",
+    "mmprojQuantizationsPlaceholder": "fp16,fp32 (virgülle ayrılmış)",
+    "mmprojQuantizationsHint": "Tercih edilen MMProj nicemleme. Varsayılan için boş bırakın (fp16).",
+    "embeddings": "Gömüler",
+    "embeddingsHint": "Bu model için gömü desteğini etkinleştirin.",
+    "modelType": "Model Türü",
+    "modelTypePlaceholder": "AutoModelForCausalLM (transformers arka ucu için)",
+    "modelTypeHint": "Transformers arka ucu için model türü. Örnekler: AutoModelForCausalLM, SentenceTransformer, Mamba.",
+    "pipelineType": "Pipeline Türü",
+    "pipelineTypeHint": "Diffusers arka ucu için pipeline türü.",
+    "schedulerType": "Zamanlayıcı Türü",
+    "schedulerTypePlaceholder": "k_dpmpp_2m (isteğe bağlı)",
+    "schedulerTypeHint": "Diffusers arka ucu için zamanlayıcı türü. Örnekler: k_dpmpp_2m, euler_a, ddim.",
+    "enableParameters": "Parametreleri Etkinleştir",
+    "enableParametersPlaceholder": "negative_prompt,num_inference_steps (virgülle ayrılmış)",
+    "enableParametersHint": "Diffusers arka ucu için etkin parametreler (virgülle ayrılmış).",
+    "cuda": "CUDA",
+    "cudaHint": "GPU hızlandırma için CUDA desteğini etkinleştirin.",
+    "yamlEditor": "YAML Yapılandırma Düzenleyicisi",
+    "manualPick": "manuel seçim",
+    "manualPickTooltip": "Otomatik algılama bu arka uca yönlendirmez. İstediğinizi biliyorsanız buradan seçin."
+  },
+  "modality": {
+    "text": "Metin LLM",
+    "asr": "Konuşma tanıma",
+    "tts": "Metinden konuşmaya",
+    "image": "Görüntü / Video",
+    "embeddings": "Gömüler",
+    "reranker": "Yeniden sıralayıcılar",
+    "detection": "Nesne tespiti",
+    "vad": "Ses aktivite tespiti",
+    "other": "Diğer"
+  },
+  "powerTabs": {
+    "ariaLabel": "Gelişmiş mod sekmesi",
+    "preferences": "Tercihler",
+    "yaml": "YAML"
+  },
+  "switchDialog": {
+    "title": "Özel tercihleriniz korunsun mu?",
+    "body": "Basit moda geçmek arka uç, ad ve açıklamanın ötesindeki tercihleri gizler. İçe aktardığınızda yine de gönderilecekler.",
+    "cancel": "İptal",
+    "discard": "At ve geç",
+    "keep": "Koru ve geç"
+  },
+  "estimate": {
+    "title": "Tahmini gereksinimler",
+    "download": "İndirme: {{size}}",
+    "vram": "VRAM: {{vram}}"
+  },
+  "toasts": {
+    "noUri": "Lütfen bir model URI'si girin",
+    "noYaml": "Lütfen YAML yapılandırması girin",
+    "started": "İçe aktarma başladı! İlerleme takip ediliyor...",
+    "startedWithMeta": "İçe aktarma başladı! İlerleme takip ediliyor... ({{meta}})",
+    "imported": "Model başarıyla içe aktarıldı!",
+    "importedYaml": "Model yapılandırması başarıyla içe aktarıldı!",
+    "importFailed": "İçe aktarma başarısız: {{message}}",
+    "startImportFailed": "İçe aktarma başlatılamadı: {{message}}",
+    "backendsLoadFailed": "Arka uç listesi yüklenemedi — yalnızca otomatik algılama kullanılıyor",
+    "modalityClearedBackend": "Arka uç seçimi temizlendi — {{label}} grubunda değildi.",
+    "copied": "Panoya kopyalandı"
+  },
+  "uriFormats": {
+    "huggingface": {
+      "title": "HuggingFace",
+      "standard": "Standart HuggingFace biçimi",
+      "short": "Kısa HuggingFace biçimi",
+      "fullUrl": "Tam HuggingFace URL'si"
+    },
+    "http": {
+      "title": "HTTP/HTTPS URL'leri",
+      "direct": "Herhangi bir HTTPS URL'sinden doğrudan indirme"
+    },
+    "local": {
+      "title": "Yerel Dosyalar",
+      "filePath": "Yerel dosya yolu (mutlak)",
+      "directYaml": "Doğrudan yerel YAML yapılandırma dosyası"
+    },
+    "oci": {
+      "title": "OCI Kayıt Defteri",
+      "registry": "OCI konteyner kayıt defteri",
+      "tarball": "Yerel OCI tarball dosyası"
+    },
+    "ollama": {
+      "title": "Ollama",
+      "model": "Ollama model biçimi"
+    },
+    "yaml": {
+      "title": "YAML Yapılandırma Dosyaları",
+      "remote": "Uzak YAML yapılandırma dosyası",
+      "local": "Yerel YAML yapılandırma dosyası"
+    }
+  }
+}

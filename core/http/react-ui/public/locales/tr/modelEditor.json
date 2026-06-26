@@ -1,0 +1,38 @@
+{
+  "title": {
+    "add": "Model Ekle",
+    "edit": "Model Düzenleyici"
+  },
+  "subtitle": {
+    "chooseModelType": "Başlamak için bir model türü seçin",
+    "newModel": "Yeni model"
+  },
+  "actions": {
+    "backTo": "{{page}} sayfasına geri dön",
+    "system": "Sistem",
+    "templates": "Şablonlar",
+    "createModel": "Model Oluştur",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "saving": "Kaydediliyor...",
+    "saved": "Kaydedildi",
+    "switchWarning": "Sekme değiştirmeden önce değişiklikleri kaydedin veya atın.",
+    "discardAndSwitch": "At ve Geç"
+  },
+  "tabs": {
+    "interactive": "Etkileşimli",
+    "yaml": "YAML",
+    "yamlDescription": "YAML'ı doğrudan düzenleyin. Oluşturma işleminin çalışması için model adı YAML içinde ayarlanmalıdır."
+  },
+  "forms": {
+    "modelName": {
+      "label": "Model Adı",
+      "placeholder": "model-adim",
+      "hint": "Yalnızca harf, rakam, kısa çizgi, alt çizgi ve nokta kullanın."
+    },
+    "empty": {
+      "nav": "Alan eklemek için yukarıdaki arama çubuğunu kullanın",
+      "title": "Yapılandırılmış alan yok",
+      "text": "Yapılandırma alanlarını bulmak ve eklemek için yukarıdaki arama çubuğunu kullanın."
+    }
+  }
+}

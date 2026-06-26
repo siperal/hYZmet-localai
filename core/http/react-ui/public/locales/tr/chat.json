@@ -1,0 +1,119 @@
+{
+  "activity": {
+    "thought": "Düşünce",
+    "tool": "Araç",
+    "result": "Sonuç",
+    "toolResult": "{{name}} sonucu",
+    "thinking": "Düşünüyor..."
+  },
+  "header": {
+    "manageModeTooltip": "Bu sohbet, LocalAI ile konuşarak model kurabilir, yapılandırmaları düzenleyebilir ve arka uçları yönetebilir.",
+    "modelInfo": "Model bilgisi",
+    "chatSettings": "Sohbet ayarları",
+    "modelInfoTitle": "Model Bilgisi: {{model}}",
+    "editConfig": "Yapılandırmayı düzenle",
+    "close": "Kapat"
+  },
+  "modelInfo": {
+    "backend": "Arka Uç",
+    "modelFile": "Model dosyası",
+    "contextSize": "Bağlam boyutu",
+    "threads": "İş parçacıkları",
+    "mcp": "MCP",
+    "configured": "Yapılandırıldı",
+    "chatTemplate": "Sohbet şablonu",
+    "yes": "Evet",
+    "gpuLayers": "GPU katmanları"
+  },
+  "context": {
+    "label": "Bağlam: %{{percent}}",
+    "labelWithTokens": "Bağlam: %{{percent}} ({{tokens}} token)"
+  },
+  "settings": {
+    "title": "Sohbet Ayarları",
+    "manageMode": "Yönetim modu",
+    "manageModeDesc": "Bu sohbetin LocalAI ile konuşarak model kurmasına, arka uç değiştirmesine ve yapılandırmaları düzenlemesine izin verin.",
+    "systemPrompt": "Sistem İstemi",
+    "systemPromptPlaceholder": "Sen yardımcı bir asistansın...",
+    "temperature": "Sıcaklık",
+    "topP": "Top P",
+    "topK": "Top K",
+    "contextSize": "Bağlam Boyutu",
+    "contextSizePlaceholder": "2048",
+    "clearHistory": "Sohbet geçmişini temizle"
+  },
+  "empty": {
+    "manageTitle": "Sohbet ederek LocalAI'yı yönetin",
+    "manageText": "Model kurmak, arka uç değiştirmek, yapılandırmaları düzenlemek veya durumu kontrol etmek için soru sorun. Asistan, herhangi bir değişiklik yapmadan önce eylemleri özetleyecek ve onayınızı bekleyecek.",
+    "startTitle": "Bir konuşma başlatın",
+    "readyText": "{{model}} ile sohbete hazır",
+    "selectModelText": "Başlamak için yukarıdan bir model seçin",
+    "suggestionsManage": [
+      "Neler kurulu?",
+      "Sohbet modeli kur",
+      "Sistem durumunu göster",
+      "Arka ucu güncelle"
+    ],
+    "suggestionsChat": [
+      "Bunun nasıl çalıştığını açıkla",
+      "Kod yazmama yardım et",
+      "Bir belgeyi özetle",
+      "Fikirler üret"
+    ],
+    "recent": "Son",
+    "noMessages": "Henüz mesaj yok",
+    "hintEnter": "Göndermek için Enter",
+    "hintShiftEnter": "Yeni satır için Shift+Enter",
+    "hintAttach": "Dosya ekle"
+  },
+  "errors": {
+    "viewTraces": "Ayrıntılar için izleri görüntüleyin"
+  },
+  "actions": {
+    "copy": "Kopyala",
+    "regenerate": "Yeniden oluştur",
+    "jumpToLatest": "En sona git"
+  },
+  "streaming": {
+    "transferring": "Model aktarılıyor...",
+    "transferringTo": "Model {{node}} düğümüne aktarılıyor..."
+  },
+  "tokens": {
+    "perSec": "{{count}} tok/s",
+    "peak": "Tepe: {{count}} tok/s",
+    "usage": "{{prompt}}g + {{completion}}t = {{total}}"
+  },
+  "input": {
+    "placeholder": "Mesaj...",
+    "attachFile": "Dosya ekle",
+    "send": "Mesaj gönder",
+    "stopGenerating": "Oluşturmayı durdur",
+    "canvasTitle": "Tuval — kod bloklarını ve medyayı önizleme, kopyalama ve indirme için yan panele çıkarın",
+    "canvasLabel": "Tuval",
+    "openCanvas": "Tuval panelini aç"
+  },
+  "deleteAllDialog": {
+    "title": "Tüm Sohbetleri Sil",
+    "message": "Tüm sohbetler silinsin mi? Bu işlem geri alınamaz.",
+    "confirm": "Tümünü sil"
+  },
+  "toasts": {
+    "selectModel": "Lütfen bir model seçin",
+    "copied": "Panoya kopyalandı",
+    "copyFailed": "Panoya kopyalanamadı"
+  },
+  "menu": {
+    "trigger": "Sohbetler",
+    "triggerTitle": "Konuşmalar (Ctrl/Cmd+K)",
+    "search": "Konuşmalarda ara...",
+    "clearSearch": "Aramayı temizle",
+    "noMatch": "Aramanızla eşleşen konuşma yok",
+    "noConversations": "Henüz konuşma yok",
+    "rename": "Yeniden adlandır",
+    "exportMarkdown": "Markdown olarak dışa aktar",
+    "deleteChat": "Sohbeti sil",
+    "newChat": "Yeni sohbet",
+    "clearAll": "Tümünü temizle",
+    "deleteAllTitle": "Tüm konuşmaları sil"
+  }
+}
