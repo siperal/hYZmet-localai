@@ -60,8 +60,12 @@
   "footer": {
     "github": "GitHub",
     "documentation": "Dokümantasyon",
+    "company": "Siperal",
     "author": "Yazar",
-    "copyright": "© 2023-{{year}} {{author}}"
+    "copyright": "© 2023-{{year}} {{author}}",
+    "solutions": "Çözümler",
+    "poweredby": "{{brand}} tarafından güçlendirilmiştir.",
+    "license": "{{license}} Lisans"
   },
   "console": {
     "automation": "Otomasyon",

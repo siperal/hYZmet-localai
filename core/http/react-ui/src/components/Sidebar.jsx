@@ -89,7 +89,7 @@ export default function Sidebar({ isOpen, onClose }) {
   const closeBtnRef = useRef(null)
 
   useEffect(() => {
-    fetch(apiUrl('/api/features')).then(r => r.json()).then(setFeatures).catch(() => {})
+    fetch(apiUrl('/api/features')).then(r => r.json()).then(setFeatures).catch(() => { })
   }, [])
 
   // Stay in sync with external collapse dispatches (e.g. the chat
@@ -279,8 +279,9 @@ export default function Sidebar({ isOpen, onClose }) {
               </button>
             </div>
           )}
-          <LanguageSwitcher />
-          <ThemeToggle />
+          {!collapsed && (
+            <LanguageSwitcher />
+          )}
           <button
             className="sidebar-collapse-btn"
             onClick={toggleCollapse}

@@ -61,7 +61,10 @@
     "github": "GitHub",
     "documentation": "Dokumentation",
     "author": "Autor",
-    "copyright": "© 2023-{{year}} {{author}}"
+    "copyright": "© 2023-{{year}} {{author}}",
+    "solutions": "Lösungen",
+    "poweredby": "Unterstützt von {{brand}}",
+    "license": "{{license}}-Lizenz"
   },
   "console": {
     "automation": "Automatisierung",

@@ -78,6 +78,7 @@
     "noModelsBody": "There are no models installed yet. Ask your administrator to set up models so you can start chatting."
   },
   "starters": {
+    "loading": "Retrieving hardware information...",
     "title": "Recommended for your hardware",
     "tier": {
       "cpu": "CPU-only",

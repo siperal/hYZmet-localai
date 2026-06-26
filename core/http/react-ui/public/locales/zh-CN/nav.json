@@ -61,7 +61,10 @@
     "github": "GitHub",
     "documentation": "文档",
     "author": "作者",
-    "copyright": "© 2023-{{year}} {{author}}"
+    "copyright": "© 2023-{{year}} {{author}}",
+    "solutions": "解决方案",
+    "poweredby": "由 {{brand}} 提供支持",
+    "license": "MIT 许可协议"
   },
   "console": {
     "automation": "自动化",

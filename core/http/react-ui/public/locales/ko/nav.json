@@ -61,7 +61,10 @@
     "github": "GitHub",
     "documentation": "문서",
     "author": "작성자",
-    "copyright": "© 2023-{{year}} {{author}}"
+    "copyright": "© 2023-{{year}} {{author}}",
+    "solutions": "솔루션",
+    "poweredby": "{{brand}} 제공",
+    "license": "{{license}} 라이선스"
   },
   "console": {
     "automation": "자동화",

@@ -4,7 +4,7 @@ import { brandingApi } from '../utils/api'
 // Bundled defaults — used when the backend hasn't applied an override (or
 // when /api/branding is briefly unreachable on first load).
 const DEFAULT_BRANDING = {
-  instanceName: 'LocalAI',
+  instanceName: 'hYZmet',
   instanceTagline: '',
   logoUrl: '/static/logo.png',
   logoHorizontalUrl: '/static/logo_horizontal.png',

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import LoadingSpinner from '../components/LoadingSpinner'
 import { modelsApi } from '../utils/api'
 import { useRecommendedModels, isNvfp4Name } from '../hooks/useRecommendedModels'
 
@@ -64,7 +65,12 @@ export default function StarterModels({ addToast, onInstallStarted }) {
 
   // While the hardware probe + gallery query are in flight, render nothing
   // rather than flashing fallback content that may be replaced a moment later.
-  if (loading) return null
+  if (loading) return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center', justifyContent: 'center', padding: 'var(--spacing-xl)', marginBottom: 'var(--spacing-lg)' }}>
+      <LoadingSpinner size="lg" />
+      <span style={{}}>{t("starters.loading")}</span>
+    </div>
+  )
 
   // Prefer live recommendations; fall back to the static list only when the
   // gallery yielded nothing.

@@ -488,7 +488,6 @@ export default function Home() {
         <div className="home-wizard">
           <EmptyState
             eyebrow={branding.instanceName}
-            icon="fa-rocket"
             title={t('wizard.getStarted', { name: branding.instanceName })}
             body={t('wizard.intro')}
           />
@@ -546,8 +545,6 @@ export default function Home() {
           </div>
         </div>
       )}
-
-      <HomeConnect />
 
       <ConfirmDialog
         open={!!confirmDialog}

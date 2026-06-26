@@ -115,15 +115,6 @@ export default function App() {
           </button>
           <span className="mobile-title">{branding.instanceName}</span>
           <div className="mobile-header-actions">
-            <button
-              type="button"
-              className="mobile-header-btn"
-              onClick={toggleTheme}
-              aria-label={themeToggleLabel}
-              title={themeToggleLabel}
-            >
-              <i className={`fas ${theme === 'dark' ? 'fa-sun' : 'fa-moon'}`} aria-hidden="true" />
-            </button>
             {showAvatar && (
               <button
                 type="button"
@@ -157,24 +148,27 @@ export default function App() {
         {!isChatRoute && (
           <footer className="app-footer">
             <div className="app-footer-inner">
-              {version && (
+              <a href="https://siperal.com/hyzmet" target="_blank" rel="noopener noreferrer">
                 <span className="app-footer-version">
-                  {branding.instanceName} <span style={{ fontWeight: 500 }}>{version}</span>
+                  {branding.instanceName}
                 </span>
-              )}
+              </a>
               <div className="app-footer-links">
+                <a href="https://siperal.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fas fa-tent" /> <span>Siperal</span>
+                </a>
+                <a href="https://siperal.com/solutions" target="_blank" rel="noopener noreferrer">
+                  <i className="fas fa-barcode" /> {t('footer.solutions')}
+                </a>
                 <a href="https://github.com/siperal/hYZmet-localai" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github" /> {t('footer.github')}
                 </a>
-                <a href="https://localai.io" target="_blank" rel="noopener noreferrer">
-                  <i className="fas fa-book" /> {t('footer.documentation')}
-                </a>
-                <a href="https://mudler.pm" target="_blank" rel="noopener noreferrer">
+                <a href="https://farkow.com" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-user" /> {t('footer.author')}
                 </a>
               </div>
               <span className="app-footer-copyright">
-                &copy; 2023-2026 <a href="https://mudler.pm" target="_blank" rel="noopener noreferrer">Ettore Di Giacinto</a>
+                &copy; 2026 <a href="https://siperal.com" target="_blank" rel="noopener noreferrer">Siperal</a> & <a href="https://farkow.com" target="_blank" rel="noopener noreferrer">Murat Aydın</a> | {t("footer.poweredby", {brand: "LocalAI"})} ({t("footer.license", {license: "MIT"})} &copy; <a href="https://mudler.pm" target="_blank" rel="noopener noreferrer">Ettore Di Giacinto</a>)
               </span>
             </div>
           </footer>

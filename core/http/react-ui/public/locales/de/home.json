@@ -77,6 +77,22 @@
     "noModelsTitle": "Keine Modelle verfügbar",
     "noModelsBody": "Es sind noch keine Modelle installiert. Bitten Sie Ihren Administrator, Modelle einzurichten, damit Sie mit dem Chatten beginnen können."
   },
+  "starters": {
+    "loading": "Hardware-Informationen werden abgerufen...",
+    "title": "Empfohlen für Ihre Hardware",
+    "tier": {
+      "cpu": "Nur CPU",
+      "gpu-small": "GPU",
+      "gpu-mid": "GPU",
+      "gpu-large": "GPU"
+    },
+    "cpuNote": "Keine GPU erkannt – diese kleinen Modelle bleiben auf der CPU reaktionsschnell.",
+    "gpuNote": "Ausgewählt, um Ihrem verfügbaren VRAM gerecht zu werden, mit Spielraum für den Kontext.",
+    "install": "Installieren",
+    "installing": "Wird installiert",
+    "installStarted": "{{model}} wird installiert…",
+    "installFailed": "Installation fehlgeschlagen: {{message}}"
+  },
   "connect": {
     "title": "Ein Endpunkt, jede API",
     "subtitle": "LocalAI bietet eine eigene, vollständige API — Bild- und Videoerzeugung, Tiefe, Objekterkennung, Reranking, Audio, Gesichts- und Spracherkennung sowie Echtzeit-Sprache über WebRTC und WebSocket. Darüber hinaus sorgt eine Drop-in-Kompatibilitätsschicht dafür, dass jede für OpenAI, Anthropic, Ollama oder OpenAI Responses gebaute App unverändert funktioniert.",

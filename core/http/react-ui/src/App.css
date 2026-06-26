@@ -2835,7 +2835,8 @@ select.input {
   align-items: flex-start;
   gap: var(--spacing-md);
   text-align: left;
-  padding: var(--spacing-3xl) var(--spacing-xl);
+  padding: 0 var(--spacing-xl);
+  padding-bottom: var(--space-section);
   max-width: 640px;
   margin: 0 auto;
   animation: fadeIn var(--duration-slow) var(--ease-spring);
@@ -6304,6 +6305,8 @@ select.input {
 .home-wizard {
   max-width: 48rem;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .home-wizard-hero {
   text-align: center;

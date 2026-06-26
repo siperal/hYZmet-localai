@@ -77,6 +77,22 @@
     "noModelsTitle": "Tidak Ada Model yang Tersedia",
     "noModelsBody": "Belum ada model yang terinstal. Hubungi administrator Anda untuk menyiapkan model agar Anda dapat mulai mengobrol."
   },
+  "starters": {
+    "loading": "Mengambil informasi perangkat keras...",
+    "title": "Direkomendasikan untuk perangkat keras Anda",
+    "tier": {
+      "cpu": "Hanya CPU",
+      "gpu-small": "GPU",
+      "gpu-mid": "GPU",
+      "gpu-large": "GPU"
+    },
+    "cpuNote": "Tidak terdeteksi GPU — model-model kecil ini tetap responsif saat dijalankan di CPU.",
+    "gpuNote": "Dipilih agar sesuai dengan VRAM yang tersedia dengan ruang cadangan untuk konteks.",
+    "install": "Instal",
+    "installing": "Sedang menginstal",
+    "installStarted": "Sedang menginstal {{model}}…",
+    "installFailed": "Pemasangan gagal: {{message}}"
+  },
   "connect": {
     "title": "Satu endpoint, semua API",
     "subtitle": "LocalAI menyediakan API miliknya sendiri yang lengkap — pembuatan gambar & video, depth, deteksi objek, reranking, audio, pengenalan wajah & suara, serta suara realtime melalui WebRTC dan WebSocket. Selain itu, lapisan kompatibilitas drop-in membuat aplikasi apa pun yang dibuat untuk OpenAI, Anthropic, Ollama, atau OpenAI Responses bekerja tanpa perubahan.",

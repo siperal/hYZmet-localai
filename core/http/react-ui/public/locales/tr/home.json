@@ -61,7 +61,7 @@
     "stopFailed": "Durdurulamadı: {{message}}"
   },
   "wizard": {
-    "getStarted": "{{name}} ile başlayın",
+    "getStarted": "{{name}} ile kurumsal yapay zekâ",
     "intro": "Başlamak için ilk modelinizi kurun. Galeriye göz atın veya kendinizinkini içe aktarın.",
     "steps": {
       "step1Title": "Model Galerisine Göz Atın",
@@ -78,6 +78,7 @@
     "noModelsBody": "Henüz kurulu model yok. Sohbet etmeye başlayabilmek için yöneticinizden modelleri kurmasını isteyin."
   },
   "starters": {
+    "loading": "Donanım bilgileri alınıyor...",
     "title": "Donanımınız için önerilir",
     "tier": {
       "cpu": "Yalnızca CPU",
@@ -85,8 +86,8 @@
       "gpu-mid": "GPU",
       "gpu-large": "GPU"
     },
-    "cpuNote": "GPU algılanmadı — bu küçük modeller CPU'da duyarlı kalır.",
-    "gpuNote": "Bağlam için yer bırakarak mevcut VRAM'inize sığacak şekilde seçildi.",
+    "cpuNote": "GPU algılanmadı — bu küçük modeller CPU üzerinde daha hızlı tepki verir.",
+    "gpuNote": "Mevcut VRAM’inize uyacak şekilde seçilmiştir ve bağlam için yeterli alan bırakılmıştır.",
     "install": "Kur",
     "installing": "Kuruluyor",
     "installStarted": "{{model}} kuruluyor…",

@@ -61,7 +61,10 @@
     "github": "GitHub",
     "documentation": "Dokumentasi",
     "author": "Penulis",
-    "copyright": "© 2023-{{year}} {{author}}"
+    "copyright": "© 2023-{{year}} {{author}}",
+    "solutions": "Solusi",
+    "poweredby": "Didukung oleh {{brand}}",
+    "license": "Lisensi {{license}}"
   },
   "console": {
     "automation": "Automasi",
