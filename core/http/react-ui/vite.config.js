@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 import istanbul from 'vite-plugin-istanbul'
+import flowbiteReact from "flowbite-react/plugin/vite";
 
 const backendUrl = process.env.LOCALAI_URL || 'http://localhost:8080'
 
@@ -18,6 +20,8 @@ const coverageV8 = process.env.COVERAGE_V8 === 'true'
 export default defineConfig({
   plugins: [
     react(),
+    tailwindcss(),
+    flowbiteReact(),
     ...(coverage
       ? [
           istanbul({
