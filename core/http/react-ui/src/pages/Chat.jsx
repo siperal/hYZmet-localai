@@ -631,7 +631,7 @@ export default function Chat() {
     if (focusActive) {
       if (prevAppCollapseRef.current === null) {
         try {
-          prevAppCollapseRef.current = localStorage.getItem('localai_sidebar_collapsed') === 'true'
+          prevAppCollapseRef.current = localStorage.getItem('hyzmet_sidebar_collapsed') === 'true'
         } catch (_) { prevAppCollapseRef.current = false }
       }
       window.dispatchEvent(new CustomEvent('sidebar-collapse', { detail: { collapsed: true } }))

@@ -9,8 +9,8 @@ import { apiUrl } from '../utils/basePath'
 import { preloadRoute } from '../router'
 import { consoles, firstVisiblePath, consolePaths } from './console/consoleConfig'
 
-const COLLAPSED_KEY = 'localai_sidebar_collapsed'
-const SECTIONS_KEY = 'localai_sidebar_sections'
+const COLLAPSED_KEY = 'hyzmet_sidebar_collapsed'
+const SECTIONS_KEY = 'hyzmet_sidebar_sections'
 
 const topItems = [
   { path: '/app', icon: 'fas fa-home', labelKey: 'items.home' },

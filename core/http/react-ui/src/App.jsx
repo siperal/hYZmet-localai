@@ -11,7 +11,7 @@ import { useAuth } from './context/AuthContext'
 import RouteFallback from './components/RouteFallback'
 import { consoles, consolePaths } from './components/console/consoleConfig'
 
-const COLLAPSED_KEY = 'localai_sidebar_collapsed'
+const COLLAPSED_KEY = 'hyzmet_sidebar_collapsed'
 
 // The page wrapper is keyed so its transition replays on navigation. Within a
 // console, collapse the key to the console id so the layout (and its rail)
